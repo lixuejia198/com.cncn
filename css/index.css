@@ -1,0 +1,503 @@
+/*1. 头部 */
+/* 头部上部分 */
+.header-top {
+  height: 65px;
+}
+
+/* 头部标志 */
+.header-logo {
+  float: left;
+  margin-top: 8px;
+}
+
+/* 头部定位地点 */
+.header-city {
+  position: relative;
+  float: left;
+  margin: 10px 0 0 10px;
+}
+
+.header-city strong {
+  display: block;
+  position: relative;
+  padding: 10px;
+  color: #7c7c7c;
+  font-size: 14px;
+  font-weight: normal;
+  border: 1px solid #fff;
+  border-bottom: 0;
+  background: #fff;
+  z-index: 2;
+}
+
+.currt-city strong {
+  height: 34px;
+  border: 1px solid #e6e6e6;
+  border-bottom: none;
+}
+
+.header-city strong i {
+  display: inline-block;
+  width: 13px;
+  height: 17px;
+  margin-right: 3px;
+  vertical-align: middle;
+  background-image: url(../images/spirit_02.png);
+  background-repeat: no-repeat;
+}
+
+.currt-city strong i {
+  display: inline-block;
+  width: 13px;
+  height: 17px;
+  margin-right: 3px;
+  vertical-align: middle;
+  background-position: -13px 0;
+}
+
+.header-city strong s {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  margin-left: 5px;
+  vertical-align: 2px;
+  border-top: 5px solid #a9a9a9;
+  border-bottom: 0 none;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  overflow: hidden;
+  transition: all 0.2s ease-in;
+}
+
+.currt-city strong s {
+  transform: rotate(180deg);
+}
+
+.header-city .hide-box {
+  display: none;
+}
+
+.currt-city .hide-box {
+  display: block;
+  position: absolute;
+  top: 54px;
+  left: 0px;
+  width: 410px;
+  padding: 15px 20px 5px 20px;
+  border: 1px solid #e6e6e6;
+  background-color: #fff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.currt-city .tab-list {
+  font-size: 14px;
+  color: #333;
+}
+
+.currt-city .tab-list a {
+  display: inline-block;
+  margin-right: 18px;
+  line-height: 24px;
+  color: #333;
+}
+
+.currt-city .tab-list .tab-on {
+  padding: 0 10px;
+  color: #fff;
+  border-radius: 3px;
+  background-color: #00bf49;
+}
+
+.currt-city .tab-item-txt {
+  clear: both;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.currt-city .tab-item-txt a {
+  display: inline-block;
+  padding-right: 15px;
+  line-height: 28px;
+  font-size: 13px;
+}
+
+.currt-city .tab-item-txt a:hover {
+  color: #fa8d00;
+}
+
+/* 头部搜索框 */
+.header-search {
+  position: relative;
+  float: left;
+  width: 350px;
+  height: 31px;
+  border: 2px solid #fa8d00;
+  background: #fff;
+  box-sizing: border-box;
+  margin: 15px 0 0 80px;
+}
+
+.header-search-curt {
+  float: left;
+  width: 64px;
+  height: 100%;
+  background-color: #f9f9f9;
+  border-right: 1px solid #eaeaea;
+  padding: 7px 6px 3px 8px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.header-search-curt span {
+  display: inline-block;
+  width: 42px;
+  font-size: 14px;
+}
+
+.header-search-curt i {
+  position: absolute;
+  top: 12px;
+  left: 43px;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  line-height: 0;
+  font-size: 0;
+  margin-left: 5px;
+  vertical-align: middle;
+  border-top: 4px solid #a9a9a9;
+  border-bottom: 0 none;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+}
+
+.header-search-curt:hover i {
+  transform: rotate(180deg);
+}
+
+.header-search-curt .curtlist {
+  display: none;
+}
+
+.curtlist-list .curtlist {
+  position: absolute;
+  left: -1px;
+  top: 27px;
+  border: 1px solid #eaeaea;
+  border-top: 2px solid #fa8d00;
+  color: #555;
+}
+
+.curtlist-list .curtlist li {
+  width: 55px;
+  line-height: 24px;
+  padding-left: 8px;
+  background-color: #fff;
+}
+
+.curtlist-list .curtlist li:hover {
+  background-color: #f0f0f0;
+}
+
+.header-search-input {
+  float: left;
+  width: 205px;
+  height: 100%;
+  border: none;
+  padding: 0px 5px 0px 10px;
+  box-sizing: border-box;
+}
+
+.header-search button {
+  float: right;
+  width: 76px;
+  height: 100%;
+  border: none;
+  background-color: #fa8d00;
+  color: #fff;
+  font-size: 16px;
+}
+
+.hearder-search-keyword {
+  position: absolute;
+  top: 6px;
+  right: 80px;
+}
+
+.hearder-search-keyword a {
+  display: inline-block;
+  padding: 0 5px;
+  margin-right: 3px;
+  line-height: 20px;
+  color: #888;
+  border-radius: 3px;
+  background: #f3f3f3;
+}
+
+/* 头部其他 */
+.header-other {
+  position: relative;
+  float: left;
+  margin: 10px 30px 0 216px;
+}
+
+.header-other>a {
+  display: inline-block;
+  color: #999;
+}
+
+.header-other>a:hover {
+  color: #fa8d00;
+}
+
+.header-other-line {
+  display: inline-block;
+  width: 0;
+  height: 16px;
+  margin: 0 0 0 10px;
+  border-left: 1px solid #eeeeee;
+  vertical-align: middle;
+}
+
+.header-other-webnav {
+  display: inline-block;
+  height: 42px;
+  font-size: 14px;
+  color: #999;
+}
+
+.header-other-webnav span {
+  display: block;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid #fff;
+  font-size: 12px;
+  border-bottom: 0;
+  background: #fff;
+}
+
+.header-other-webnav i {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  line-height: 0;
+  font-size: 0;
+  margin-left: 5px;
+  vertical-align: middle;
+  border-top: 4px solid #a9a9a9;
+  border-bottom: 0 none;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  transition: all 0.2s ease-in;
+}
+
+.hov-webnav {
+  background-color: #fff;
+}
+
+.hov-webnav span {
+  position: relative;
+  height: 34px;
+  border: 1px solid #e6e6e6;
+  border-bottom: none;
+  z-index: 203;
+}
+
+.hov-webnav span i {
+  transform: rotate(180deg);
+}
+
+.header-other-webnav-con {
+  display: none;
+  position: absolute;
+  top: 54px;
+  left: -897px;
+  width: 1200px;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  z-index: 201;
+}
+
+.header-other-webnav-con ul {
+  padding-left: 50px;
+}
+
+.header-other-webnav-con ul li {
+  display: inline-block;
+  width: 220px;
+  height: 200px;
+  margin: 20px 30px 20px 30px;
+  border-right: 1px solid #f5f5f5;
+  vertical-align: top;
+}
+
+.header-other-webnav-con-item strong {
+  display: block;
+  margin: 10px 0 15px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.header-other-webnav-con-item strong i {
+  position: absolute;
+  margin: -4px 0 0 -40px;
+  width: 32px;
+  height: 32px;
+  background-position: 0 -84px;
+  background-image: url(../images/spirit_02.png);
+  background-repeat: no-repeat;
+  background-size: 200px 200px;
+}
+
+.header-other-webnav-con-item strong .i2 {
+  background-position: -32px -84px;
+}
+
+.header-other-webnav-con-item strong .i3 {
+  background-position: -64px -84px;
+}
+
+.header-other-webnav-con-item strong .i4 {
+  background-position: -96px -84px;
+}
+
+.header-other-webnav-con-item a {
+  display: inline-block;
+  width: 100px;
+  line-height: 30px;
+  font-size: 12px;
+  color: #666;
+}
+
+.header-other-webnav-con-item a:hover,
+.header-other-webnav-con-item a.hot {
+  color: #f70;
+}
+
+/* 头部手机扫码服务 */
+.header-ewn {
+  position: relative;
+  float: right;
+  width: 100px;
+  padding-left: 26px;
+  height: 34px;
+  margin-top: 15px;
+}
+
+.header-ewn-content {
+  display: block;
+  color: #999;
+  cursor: pointer;
+}
+
+.header-ewn-content i {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 19px;
+  height: 32px;
+  margin-right: 5px;
+  background-position: -1px -19px;
+  background-image: url(../images/spirit_02.png);
+}
+
+.header-ewn-content b {
+  font-size: 16px;
+  font-weight: normal;
+  color: #555;
+}
+
+.header-ewn-content s {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  margin-left: 5px;
+  vertical-align: 2px;
+  border-top: 4px solid #a9a9a9;
+  border-bottom: 0 none;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  overflow: hidden;
+  transition: all 0.2s ease-in;
+}
+
+.header-ewn-content span {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #999;
+}
+
+.header-ewn .header-ewn-eweima {
+  display: none;
+}
+
+.ewn-on {
+  position: relative;
+}
+
+.ewn-on .header-ewn-eweima-con-xsj {
+  transform: rotate(180deg);
+}
+
+.ewn-on .header-ewn-eweima {
+  position: absolute;
+  top: 51px;
+  left: 0px;
+  z-index: 201;
+}
+
+.ewn-on .header-ewn-eweima-con {
+  position: relative;
+  right: 0;
+  top: -8px;
+  width: 136px;
+  height: 156px;
+  padding: 12px 0 8px 0;
+  text-align: center;
+  color: #333;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+
+.ewn-on .header-ewn-eweima-con s {
+  position: absolute;
+  top: -7px;
+  right: 59px;
+  width: 13px;
+  height: 7px;
+  background-image: url(../images/spirit_02.png);
+  background-repeat: no-repeat;
+  background-position: -47px 0;
+  background-size: 200px 200px;
+}
+
+.ewn-on .header-ewn-eweima-con i {
+  position: absolute;
+  top: 47px;
+  right: 49px;
+  width: 36px;
+  height: 36px;
+  border-radius: 2px;
+  background: #fff url(../images/icon_elephant.png) no-repeat 3px 3px;
+  background-size: 30px 30px;
+  z-index: 3;
+}
+
+.ewn-on .header-ewn-eweima-service {
+  position: absolute;
+  top: 11px;
+  left: 8px;
+  display: block;
+  width: 120px;
+  text-align: center;
+}
+
+.ewn-on .header-ewn-eweima-service img {
+  width: 106px;
+  height: 106px;
+}

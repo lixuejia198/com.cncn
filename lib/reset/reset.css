@@ -33,3 +33,9 @@ a,a:hover{color:#333;}
 .clearfix {
   *zoom: 1;
 }
+
+/* 版心 */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
