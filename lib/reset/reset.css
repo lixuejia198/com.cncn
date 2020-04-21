@@ -36,6 +36,7 @@ a,a:hover{color:#333;}
 
 /* 版心 */
 .container {
+  position: relative;
   width: 1200px;
   margin: 0 auto;
 }

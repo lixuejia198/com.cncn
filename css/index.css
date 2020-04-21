@@ -1,5 +1,5 @@
 /*1. 头部 */
-/* 头部上部分 */
+/* 1.1头部上部分 */
 .header-top {
   height: 65px;
 }
@@ -31,9 +31,11 @@
 }
 
 .currt-city strong {
+  position: relative;
   height: 34px;
   border: 1px solid #e6e6e6;
   border-bottom: none;
+  z-index: 201;
 }
 
 .header-city strong i {
@@ -88,6 +90,7 @@
   border: 1px solid #e6e6e6;
   background-color: #fff;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  z-index: 200;
 }
 
 .currt-city .tab-list {
@@ -500,4 +503,207 @@
 .ewn-on .header-ewn-eweima-service img {
   width: 106px;
   height: 106px;
+}
+
+/* 1.2头部下部分 */
+.header-list {
+  width: 100%;
+  height: 80px;
+  background-image: url(../images/menu_bg.jpg);
+  background-repeat: repeat-x;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.header-list-item {
+  float: left;
+  margin-right: -1px;
+  font-size: 16px;
+  color: #fff;
+  vertical-align: middle;
+  transition: all 0.3s linear 0s;
+}
+
+.header-list-item>a {
+  position: relative;
+  color: #fff;
+  margin: 0 12px;
+  line-height: 40px;
+}
+
+.header-list-content {
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  color: #999;
+  font-size: 14px;
+  background: #fff;
+}
+
+.header-list-content>a {
+  padding: 0 10px 0 10px;
+  color: #555;
+  font-weight: normal;
+  text-indent: 0;
+}
+
+.header-list-content>a:hover {
+  padding: 4px 10px;
+  background-color: #00bf4b;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.header-list-item>a>s {
+  display: none;
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  margin-left: -8px;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  border-bottom: 8px solid #fff;
+  border-top: 0 none;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  overflow: hidden;
+  transition: all 0.2s ease-in;
+}
+
+.header-list-item>a>i {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  margin-left: 5px;
+  vertical-align: 2px;
+  border-top: 4px solid #fff;
+  border-bottom: 0 none;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  overflow: hidden;
+  transition: all 0.2s ease-in;
+}
+
+.header-list-item:hover>a>i {
+  transform: rotate(180deg);
+}
+
+.list-on>a>s {
+  display: block;
+}
+
+.list-on,
+.header-list-item:hover {
+  background-color: #02ab43;
+}
+
+.header-login {
+  position: relative;
+  top: -40px;
+  right: 0px;
+  float: right;
+  width: 116px;
+  height: 40px;
+  padding: 0 10px;
+  color: #fff;
+  font-size: 16px;
+  background: #ff9911;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 200;
+}
+
+.header-login>i {
+  float: left;
+  width: 27px;
+  height: 27px;
+  margin: 7px 5px 0 0;
+  background-position: 0 -53px;
+  background-image: url(../images/spirit_02.png);
+}
+
+.header-login-user {
+  position: relative;
+  display: block;
+  padding-top: 4px;
+  font-size: 12px;
+  z-index: 199;
+}
+
+.header-login-user>a {
+  color: #fff;
+  vertical-align: bottom;
+}
+
+.header-login>b {
+  display: block;
+  line-height: 16px;
+  margin-top: 3px;
+  font-weight: normal;
+}
+
+.header-login>b>s {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  margin-left: 5px;
+  vertical-align: 2px;
+  border-top: 5px solid #fff;
+  border-bottom: 0 none;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  overflow: hidden;
+  transition: all 0.2s ease-in;
+}
+
+.header-login>b:hover s {
+  transform: rotate(180deg);
+}
+
+.header-login-message {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: -10px;
+  width: 136px;
+  color: #333;
+  border-radius: 0 0 2px 2px;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.header-login-message span {
+  display: block;
+  margin: 5px 15px;
+  padding: 5px 0;
+}
+
+.header-login-message span a {
+  display: block;
+  line-height: 24px;
+  color: #333;
+}
+
+.header-login-message span .btn-login {
+  display: block;
+  margin-bottom: 5px;
+  line-height: 26px;
+  border-bottom: 1px solid #cf7600;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  border-radius: 3px;
+  background: #ff9911;
+}
+
+.header-login-message .btn-login:hover  {
+  background-color: #ff7700;
+}
+
+.header-login-message .list-login:hover {
+  color: #fa8d00;
 }

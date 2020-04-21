@@ -47,4 +47,10 @@ $(function () {
     $('.header-ewn .header-ewn-eweima').hide()
     $(this).removeClass('ewn-on')
   })
+  // 鼠标移入移出登录注册的时候，登录框显示与隐藏
+  $('.header-login').hover(function(){
+    $('.header-login-message').show()
+  },function(){
+    $('.header-login-message').hide()
+  })
 })
