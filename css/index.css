@@ -190,6 +190,7 @@
   border: 1px solid #eaeaea;
   border-top: 2px solid #fa8d00;
   color: #555;
+  z-index: 200;
 }
 
 .curtlist-list .curtlist li {
@@ -700,10 +701,347 @@
   background: #ff9911;
 }
 
-.header-login-message .btn-login:hover  {
+.header-login-message .btn-login:hover {
   background-color: #ff7700;
 }
 
 .header-login-message .list-login:hover {
   color: #fa8d00;
+}
+
+/* 2.主体 */
+/* 2.1主体-banner部分 */
+.main-banner {
+  height: 320px;
+  padding-top: 20px;
+  background: #eee url(../images/banner_bg.jpg) no-repeat center 0;
+}
+
+.main-banner .container {
+  height: 300px;
+  box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.main-banner-left {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 460px;
+  height: 300px;
+  background-color: #00bf49;
+  z-index: 2;
+}
+
+.main-banner-left-nav {
+  width: 90px;
+  float: left;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.main-banner-left-nav>li {
+  color: #fff;
+  cursor: pointer;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 10px;
+  overflow: hidden;
+}
+
+.main-banner-left-nav>li:hover {
+  background-color: #fff;
+  color: #00bf49;
+}
+
+.main-banner-left-nav>li:hover>b {
+  border-bottom: none;
+}
+
+.main-banner-left-nav>li>b {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: normal;
+  width: 69px;
+  height: 39px;
+  padding-left: 1px;
+  border-bottom: 1px solid #00b043;
+}
+
+.main-banner-searchbox {
+  position: relative;
+  float: right;
+  background-color: #fff;
+  width: 324px;
+  height: 290px;
+  padding: 10px 20px 0 26px;
+}
+
+.main-banner-search-dest {
+  margin-top: 20px;
+}
+
+.main-banner-search-dest-item {
+  position: relative;
+  height: 34px;
+  margin-bottom: 15px;
+}
+
+.main-banner-search-dest-item:last-child {
+  height: 61px;
+  margin-bottom: 0;
+}
+
+.main-banner-search-dest-item>span {
+  float: left;
+  font-size: 16px;
+  width: 64px;
+  line-height: 34px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.main-banner-search-dest-item .ipt-text {
+  width: 238px;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  height: 32px;
+  font-size: 14px;
+  overflow: hidden;
+  padding-left: 10px;
+}
+
+.main-banner-search-dest-item-btn {
+  float: right;
+  background-color: #ff9911;
+  border: 0;
+  border-bottom: 2px solid #cf7600;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 16px;
+  width: 140px;
+  height: 35px;
+  margin-top: 5px;
+  line-height: 34px;
+  text-align: center;
+}
+
+.main-banner-search-dest-item-btn:hover {
+  background-color: #ff7700;
+  color: #fff;
+}
+
+.main-banner-search-dest-item .money-icon {
+  position: absolute;
+  top: 0px;
+  left: 107px;
+  z-index: 2;
+  height: 35px;
+  width: 69px;
+  margin-top: 8px;
+  background-image: url(../images/spirit_04.jpg);
+  background-repeat: no-repeat;
+  background-size: 180px 500px;
+  background-position: 0px -299px;
+}
+
+.main-banner-searchbox-tips {
+  height: 33px;
+  color: #888;
+  text-align: center;
+}
+
+.main-banner-searchbox-tips>b {
+  color: #666;
+  margin: 0px 5px;
+}
+
+.main-banner-hottravel {
+  line-height: 20px;
+}
+
+.main-banner-hottravel>dt {
+  float: left;
+  width: 36px;
+  color: #888;
+}
+
+.main-banner-hottravel>dd {
+  float: left;
+  color: #d3d3d3;
+}
+
+.main-banner-hottravel>dd>a {
+  display: inline-block;
+  color: #333;
+  padding: 0px 6px;
+}
+
+.main-banner-hottravel>dd>a:hover {
+  color: #fa8d00;
+}
+
+.form-search-hide {
+  display: none;
+  position: absolute;
+  top: 64px;
+  left: 100px;
+  width: 486px;
+  height: 181px;
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  background: #fff;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.form-search-cont {
+  padding: 10px 15px;
+  background-color: #fff;
+}
+
+.form-search-cont-top {
+  font-size: 14px;
+  color: #333;
+}
+
+.form-search-cont-top>a {
+  position: relative;
+  float: left;
+  padding: 0 15px 5px 15px;
+  color: #333;
+  border-bottom: 2px solid #00bf49
+}
+
+.form-search-cont-top>a>i {
+  display: none;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -4px;
+  vertical-align: middle;
+  overflow: hidden;
+  border-width: 4px;
+  border-style: dashed dashed solid dashed;
+  border-color: transparent transparent #00bf49 transparent;
+}
+
+.form-search-cont-top>a:first-child>i {
+  display: block;
+}
+
+.form-search-cont-content-list {
+  font-size: 14px;
+  padding: 10px 0px;
+  line-height: 28px;
+}
+
+.form-search-cont-content-list>a {
+  display: inline-block;
+  padding-right: 15px;
+  font-size: 13px;
+}
+
+.form-search-cont-content-list>a:hover {
+  color: #fa8d00;
+}
+
+.main-banner-slider {
+  float: right;
+  position: relative;
+  width: 740px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.main-banner-slider>ul {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: calc(740px * 2);
+}
+
+.main-banner-slider>ul>li {
+  float: left;
+  width: 740px;
+  height: 300px;
+}
+
+.main-banner-slider>ul a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.main-banner-slider>ul img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-banner-slider-arrow {
+  display: none;
+}
+
+.main-banner-slider-arrow-left,
+.main-banner-slider-arrow-right {
+  position: absolute;
+  top: 50%;
+  margin-top: -34px;
+  width: 24px;
+  height: 68px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.main-banner-slider-arrow-left {
+  left: 0px;
+}
+
+.main-banner-slider-arrow-right {
+  right: 0px;
+}
+
+.main-banner-slider-arrow-left>i,
+.main-banner-slider-arrow-right>i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -13px;
+  margin-left: -8px;
+  width: 16px;
+  height: 26px;
+  background-image: url(../images/main_banner_slider_icon.png);
+  background-repeat: no-repeat;
+  background-size: 14px 52px;
+  background-position: 0px 0px;
+}
+
+.main-banner-slider-arrow-right>i {
+  background-position: 0px -26px;
+}
+
+.main-banner-slider-arrow-left:hover,
+.main-banner-slider-arrow-right:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.main-banner-slider-xyd {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  margin-left: -18px;
+}
+
+.main-banner-slider-xyd>li {
+  float: left;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 0px 3px;
+}
+
+.main-banner-slider-xyd>li.active {
+  background-color: #46ba00;
 }
