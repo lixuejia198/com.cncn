@@ -1045,3 +1045,127 @@
 .main-banner-slider-xyd>li.active {
   background-color: #46ba00;
 }
+
+/* 2.1 主体 floor部分 */
+.main-floor-holiday {
+  height: 552px;
+}
+
+.main-floor-holiday .container {
+  padding: 30px 0px;
+}
+
+.main-floor-holiday-title {
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 2px solid #f80;
+}
+
+.main-floor-holiday-title>strong {
+  padding-left: 40px;
+  margin-right: 20px;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.main-floor-holiday-title>strong>i {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/spirit_01.png);
+  background-size: 600px 500px;
+  background-position: -31px -128px;
+}
+
+.main-floor-holiday-title>strong>a {
+  color: #f80;
+}
+
+.main-floor-holiday-list {
+  position: absolute;
+  top: 0px;
+  left: 220px;
+  font-size: 16px;
+}
+
+.main-floor-holiday-list>a {
+  display: inline-block;
+  position: relative;
+  margin: 0 20px;
+}
+
+.main-floor-holiday-list>a>i {
+  display: none;
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  margin-left: -8px;
+  border-top: 0 none;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #f80;
+}
+
+.main-floor-holiday-list>.active>i {
+  display: block;
+}
+
+.main-floor-holiday-sliderbar {
+  position: relative;
+  width: 220px;
+  float: left;
+  overflow: hidden
+}
+
+.main-floor-holiday-sliderbar-dl {
+  width: 240px;
+  padding: 10px 0;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.main-floor-holiday-sliderbar-dl>dt {
+  display: block;
+  color: #333;
+  font-weight: bold;
+}
+
+.main-floor-holiday-sliderbar-dl>dd {
+  color: #999;
+}
+
+.main-floor-holiday-sliderbar-dl>dd>a {
+  display: inline-block;
+  height: 20px;
+  margin-right: 20px;
+  line-height: 20px;
+  color: #999;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.main-floor-holiday-sliderbar-brand {
+  padding-top: 10px;
+  font-size: 14px;
+  border-top: 1px dotted #e6e6e6;
+}
+
+.main-floor-holiday-sliderbar-brand>b {
+  display: block;
+  color: #555;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.main-floor-holiday-sliderbar-brand>span {
+  color: #999;
+}
+
+.main-floor-holiday-sliderbar-brand>img {
+  margin-top: 30px;
+}
