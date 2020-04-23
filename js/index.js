@@ -129,5 +129,9 @@ $(function () {
     }, 3000);
   })
   
-
+ 
+  $('.main-floor-special-sliderbar-recommend-title>.recommend-tit>a').on('mousemove',function(){
+    let $index = $(this).index();
+    // console.log($index);
+  }) 
 })

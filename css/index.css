@@ -1046,7 +1046,8 @@
   background-color: #46ba00;
 }
 
-/* 2.1 主体 floor部分 */
+/* 2.2 主体 floor部分 */
+/* 2.2.1 旅游度假 */
 .main-floor-holiday {
   height: 552px;
 }
@@ -1084,6 +1085,18 @@
   color: #f80;
 }
 
+.main-floor-holiday-title>a {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 14px;
+  color: #999;
+}
+
+.main-floor-holiday-title>a:hover {
+  color: #fa8d00;
+}
+
 .main-floor-holiday-list {
   position: absolute;
   top: 0px;
@@ -1095,6 +1108,10 @@
   display: inline-block;
   position: relative;
   margin: 0 20px;
+}
+
+.main-floor-holiday-list>a:hover {
+  color: #fa8d00;
 }
 
 .main-floor-holiday-list>a>i {
@@ -1149,6 +1166,11 @@
   overflow: hidden;
 }
 
+.main-floor-holiday-sliderbar-dl>dt>a:hover,
+.main-floor-holiday-sliderbar-dl>dd>a:hover {
+  color: #fa8d00;
+}
+
 .main-floor-holiday-sliderbar-brand {
   padding-top: 10px;
   font-size: 14px;
@@ -1168,4 +1190,434 @@
 
 .main-floor-holiday-sliderbar-brand>img {
   margin-top: 30px;
+}
+
+.main-floor-holiday-slidercon {
+  margin-left: 240px;
+  padding-top: 20px;
+}
+
+.main-floor-holiday-slidercon>ul {
+  width: 975px;
+}
+
+.main-floor-holiday-slidercon-item {
+  float: left;
+  width: 180px;
+  height: 200px;
+  margin: 0 15px 15px 0;
+  transition: all 0.3s linear;
+}
+
+.main-floor-holiday-slidercon-item:hover {
+  transform: translateY(-5px);
+}
+
+.main-floor-holiday-slidercon-item>a {
+  display: block;
+  color: #555;
+  cursor: pointer;
+}
+
+.main-floor-holiday-slidercon-item>a>img {
+  display: block;
+  width: 180px;
+  height: 120px;
+}
+
+.main-floor-holiday-slidercon-item>a>.text-con {
+  padding: 9px 9px 4px 9px;
+  border: 1px solid #ddd;
+  border-top: 0;
+  background: #fff;
+}
+
+.main-floor-holiday-slidercon-item .text-con>p {
+  height: 36px;
+  line-height: 18px;
+  font-size: 14px;
+  color: #333;
+  overflow: hidden;
+}
+
+.main-floor-holiday-slidercon-item .text-con>.num-con {
+  color: #999;
+}
+
+.main-floor-holiday-slidercon-item .text-con .sale-con {
+  float: right;
+  padding: 3px 5px;
+  margin-top: 2px;
+  color: #fff;
+  background: #00c94c;
+}
+
+.main-floor-holiday-slidercon-item .text-con .text-price>b {
+  font-size: 20px;
+  color: #f30;
+  font-weight: normal;
+}
+
+/* 2.2.2 欣欣优选 */
+.main-floor-preference {
+  height: 552px;
+  background-color: #f7f7f7;
+}
+
+.main-floor-preference .container {
+  padding: 30px 0px;
+}
+
+.main-floor-preference-title {
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 2px solid #fe4579;
+}
+
+.main-floor-preference-title>strong {
+  padding-left: 40px;
+  margin-right: 20px;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.main-floor-preference-title>strong>i {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/spirit_01.png);
+  background-size: 600px 500px;
+  background-position: -185px -128px;
+}
+
+.main-floor-preference-title>strong>a {
+  color: #fe4579;
+}
+
+.main-floor-preference-title>strong>a:hover {
+  color: #fa8d00;
+}
+
+.main-floor-preference-title>a {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 14px;
+  color: #999;
+}
+
+.main-floor-preference-title>a:hover {
+  color: #fa8d00;
+}
+
+.main-floor-preference-sliderbar {
+  position: relative;
+  width: 220px;
+  float: left;
+  overflow: hidden
+}
+
+.main-floor-preference-sliderbar-txt {
+  height: 190px;
+}
+
+.main-floor-preference-sliderbar-dl {
+  width: 240px;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.main-floor-preference-sliderbar-dl>dt {
+  display: block;
+  font-weight: bold;
+  line-height: 18px;
+}
+
+.main-floor-preference-sliderbar-dl>dd {
+  color: #999;
+}
+
+.main-floor-preference-sliderbar-dl>dd>a {
+  display: inline-block;
+  height: 20px;
+  margin-right: 20px;
+  line-height: 20px;
+  color: #999;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.main-floor-preference-sliderbar-dl>dt>a:hover,
+.main-floor-preference-sliderbar-dl>dd>a:hover {
+  color: #fa8d00;
+}
+
+.main-floor-preference-sliderbar-brand {
+  padding-top: 10px;
+  font-size: 14px;
+  border-top: 1px dotted #e6e6e6;
+}
+
+.main-floor-preference-sliderbar-brand>b {
+  display: block;
+  color: #555;
+  font-weight: normal;
+  margin-bottom: 5px;
+  margin-top: 3px;
+}
+
+.main-floor-preference-sliderbar-brand>span {
+  color: #999;
+}
+
+.main-floor-preference-slidercon {
+  margin-left: 240px;
+  padding-top: 20px;
+}
+
+.main-floor-preference-slidercon>ul {
+  width: 975px;
+}
+
+.main-floor-preference-slidercon-item {
+  float: left;
+  width: 180px;
+  height: 200px;
+  margin: 0 15px 15px 0;
+  transition: all 0.3s linear;
+}
+
+.main-floor-preference-slidercon-item:hover {
+  transform: translateY(-5px);
+}
+
+.main-floor-preference-slidercon-item>a {
+  display: block;
+  color: #555;
+  cursor: pointer;
+}
+
+.main-floor-preference-slidercon-item>a>img {
+  display: block;
+  width: 180px;
+  height: 120px;
+}
+
+.main-floor-preference-slidercon-item>a>.text-con {
+  padding: 9px 9px 4px 9px;
+  border: 1px solid #ddd;
+  border-top: 0;
+  background: #fff;
+}
+
+.main-floor-preference-slidercon-item .text-con>p {
+  height: 36px;
+  line-height: 18px;
+  font-size: 14px;
+  color: #333;
+  overflow: hidden;
+}
+
+.main-floor-preference-slidercon-item .text-con>.num-con {
+  color: #999;
+}
+
+.main-floor-preference-slidercon-item .text-con .sale-con {
+  float: right;
+  padding: 3px 5px;
+  margin-top: 2px;
+  color: #fff;
+  background: #00c94c;
+}
+
+.main-floor-preference-slidercon-item .text-con .text-price>b {
+  font-size: 20px;
+  color: #f30;
+  font-weight: normal;
+}
+
+/* 2.2.3 特惠门票 */
+.main-floor-special {
+  height: 523px;
+}
+
+.main-floor-special .container {
+  padding: 30px 0px;
+}
+
+.main-floor-special-title {
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 2px solid #00ccff;
+}
+
+.main-floor-special-title>strong {
+  padding-left: 40px;
+  margin-right: 20px;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.main-floor-special-title>strong>i {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/spirit_01.png);
+  background-size: 600px 500px;
+  background-position: -155px -128px;
+}
+
+.main-floor-special-title>strong>a {
+  color: #00ccff;
+}
+
+.main-floor-special-title>strong>a:hover {
+  color: #fa8d00;
+}
+
+.main-floor-special-title>a {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 14px;
+  color: #999;
+}
+
+.main-floor-special-title>a:hover {
+  color: #fa8d00;
+}
+
+.main-floor-special-sliderbar {
+  position: relative;
+  width: 220px;
+  float: left;
+  margin-top: 5px;
+  overflow: hidden;
+}
+
+.main-floor-special-sliderbar-dl {
+  width: 240px;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.main-floor-special-sliderbar-dl>dt {
+  display: block;
+  font-weight: bold;
+  line-height: 18px;
+  margin-bottom: 7px;
+  margin-top: -7px;
+}
+
+.main-floor-special-sliderbar-dl>dd {
+  color: #999;
+}
+
+.main-floor-special-sliderbar-dl>dd>a {
+  display: inline-block;
+  height: 20px;
+  margin-right: 20px;
+  line-height: 20px;
+  color: #999;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.main-floor-special-sliderbar-dl>dt>a:hover,
+.main-floor-special-sliderbar-dl>dd>a:hover {
+  color: #ff7700;
+}
+
+.main-floor-special-sliderbar-recommend {
+  margin-top: 20px;
+}
+
+.main-floor-special-sliderbar-recommend-title {
+  line-height: 20px;
+  padding-bottom: 5px;
+  overflow: hidden;
+}
+
+.main-floor-special-sliderbar-recommend-title>strong {
+  float: left;
+}
+
+.main-floor-special-sliderbar-recommend-title>.recommend-tit {
+  float: right;
+}
+
+.main-floor-special-sliderbar-recommend-title>.recommend-tit>a {
+  display: inline-block;
+  width: 20px;
+  margin-left: 5px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 12px;
+  color: #555;
+  border-radius: 3px;
+  background-color: #f4f4f4;
+}
+
+.main-floor-special-sliderbar-recommend-title>.recommend-tit>.active-on {
+  color: #fff;
+  background-color: #0cf;
+}
+
+.main-floor-special-sliderbar-recommend-item:nth-child(2) {
+  display: none;
+}
+
+.main-floor-special-sliderbar-recommend-item>ul>li {
+  width: 220px;
+  height: 64px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.main-floor-special-sliderbar-recommend-item .recommend-item>a {
+  float: left;
+}
+
+.main-floor-special-sliderbar-recommend-item .recommend-item img {
+  width: 72px;
+  height: 60px;
+}
+
+.main-floor-special-sliderbar-recommend-item .recommend-item>.recommend-nr {
+  float: right;
+  width: 140px;
+  height: 60px;
+  padding-top: 5px;
+  box-sizing: border-box;
+}
+
+.main-floor-special-sliderbar-recommend-item .recommend-item>.recommend-nr>strong {
+  color: #555;
+}
+
+.main-floor-special-sliderbar-recommend-item .recommend-item>.recommend-nr a {
+  cursor: pointer;
+}
+
+.main-floor-special-sliderbar-recommend-item .recommend-item>.recommend-nr a:hover {
+  color: #ff7700;
+}
+
+.main-floor-special-sliderbar-recommend-item .recommend-item>.recommend-nr p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  margin-top: 12px;
+  overflow: hidden;
+  color: #999;
 }
