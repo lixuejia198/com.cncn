@@ -128,10 +128,15 @@ $(function () {
       $('.main-banner-slider-arrow-right').click()
     }, 3000);
   })
-  
- 
-  $('.main-floor-special-sliderbar-recommend-title>.recommend-tit>a').on('mousemove',function(){
+
+  //  主体 floor部分 特惠门票侧边栏中的功能
+  $('.main-floor-special-sliderbar-recommend-title>.recommend-tit>a').on('mousemove', function () {
     let $index = $(this).index();
     // console.log($index);
-  }) 
+    $('.main-floor-special-sliderbar-recommend-title>.recommend-tit>a').eq($index).addClass('active-on');
+    $('.main-floor-special-sliderbar-recommend-title>.recommend-tit>a').eq($index).siblings().removeClass('active-on');
+
+    $('.main-floor-special-sliderbar-recommend-item').eq($index).show();
+    $('.main-floor-special-sliderbar-recommend-item').eq($index).siblings().hide();
+  })
 })

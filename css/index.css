@@ -1621,3 +1621,218 @@
   overflow: hidden;
   color: #999;
 }
+
+.main-floor-special-slidercon {
+  margin-left: 240px;
+  height: 338px;
+  position: relative;
+}
+
+.main-floor-special-slidercon-title {
+  padding: 10px 0;
+}
+
+.main-floor-special-slidercon-title>a {
+  display: inline-block;
+  height: 20px;
+  padding: 0 10px;
+  line-height: 18px;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #333;
+}
+
+.main-floor-special-slidercon-title>a.special-on {
+  background-color: #00ccff;
+  color: #fff;
+}
+
+
+.main-floor-special-slidercon-content {
+  width: 975px;
+}
+
+.main-floor-special-slidercon-content>ul>li {
+  float: left;
+  width: 180px;
+  margin: 0 15px 15px 0;
+  transition: all 0.3s linear;
+}
+
+.main-floor-special-slidercon-item:hover {
+  transform: translateY(-5px);
+}
+
+.main-floor-special-slidercon-item>a {
+  display: block;
+  cursor: pointer;
+}
+
+.main-floor-special-slidercon-item>a>img {
+  width: 180px;
+  height: 110px;
+}
+
+.main-floor-special-slidercon-item>a>.text-con {
+  padding: 9px 9px 3px 9px;
+  border: 1px solid #ddd;
+  border-top: 0;
+  background: #fff;
+}
+
+.main-floor-special-slidercon-item .text-con>p {
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.main-floor-special-slidercon-item>a>.text-con>div.num-con {
+  color: #999;
+}
+
+.main-floor-special-slidercon-item>a>.text-con b {
+  font-size: 20px;
+  color: #f30;
+  font-weight: normal;
+}
+
+.main-floor-special-slidercon-item>a>.text-con .sale-con {
+  float: right;
+  padding: 3px 5px;
+  color: #fff;
+  background: #00c94c;
+}
+
+/* 2.2.4 四月出游推荐  */
+.main-floor-AprilOuting {
+  height: 537px;
+}
+
+.main-floor-AprilOuting .container {
+  padding: 30px 0px;
+}
+
+.main-floor-AprilOuting-title {
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 2px solid #f8cc1b;
+}
+
+.main-floor-AprilOuting-title>strong {
+  padding-left: 40px;
+  margin-right: 20px;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.main-floor-AprilOuting-title>strong>i {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/spirit_01.png);
+  background-size: 600px 500px;
+  background-position: -215px -128px;
+}
+
+.main-floor-AprilOuting-title>strong>a {
+  color: #f8cc1b;
+}
+
+.main-floor-AprilOuting-title>strong>a:hover {
+  color: #fa8d00;
+}
+
+.main-floor-AprilOuting-title>strong>span {
+  color: #999;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.main-floor-AprilOuting-title>a {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 14px;
+  color: #999;
+}
+
+.main-floor-AprilOuting-title>a:hover {
+  color: #fa8d00;
+}
+
+.main-floor-AprilOuting-content {
+  padding-top: 20px;
+}
+
+.main-floor-AprilOuting-left {
+  float: left;
+  width: 415px;
+  overflow: hidden;
+}
+
+.main-floor-AprilOuting-left>ul {
+  width: 425px;
+}
+
+.main-floor-AprilOuting-left-item {
+  position: relative;
+  width: 135px;
+  height: 135px;
+  float: left;
+  margin: 0 5px 5px 0;
+}
+
+.main-floor-AprilOuting-left-item02 {
+  float: left;
+  width: 275px;
+  height: 135px;
+  margin: 0 5px 5px 0;
+}
+
+.main-floor-AprilOuting-left-item>a {
+  display: block;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+
+.main-floor-AprilOuting-left-item>a>img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-floor-AprilOuting-left-item>a>b {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.main-floor-AprilOuting-left-item>a>b>span {
+  flex: 1;
+  display: block;
+  font-size: 14px;
+  font-family: '宋体';
+  text-shadow: 0 2px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  z-index: 5;
+}
+
+.main-floor-AprilOuting-left-item>a>div.AprilOuting-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
