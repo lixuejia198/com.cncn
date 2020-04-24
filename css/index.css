@@ -1216,7 +1216,6 @@
 .main-floor-holiday-slidercon-item>a {
   display: block;
   color: #555;
-  cursor: pointer;
 }
 
 .main-floor-holiday-slidercon-item>a>img {
@@ -1399,7 +1398,6 @@
 .main-floor-preference-slidercon-item>a {
   display: block;
   color: #555;
-  cursor: pointer;
 }
 
 .main-floor-preference-slidercon-item>a>img {
@@ -1552,6 +1550,10 @@
   float: left;
 }
 
+.main-floor-special-sliderbar-recommend-title>strong>a:hover {
+  color: #ff7700;
+}
+
 .main-floor-special-sliderbar-recommend-title>.recommend-tit {
   float: right;
 }
@@ -1603,10 +1605,6 @@
 
 .main-floor-special-sliderbar-recommend-item .recommend-item>.recommend-nr>strong {
   color: #555;
-}
-
-.main-floor-special-sliderbar-recommend-item .recommend-item>.recommend-nr a {
-  cursor: pointer;
 }
 
 .main-floor-special-sliderbar-recommend-item .recommend-item>.recommend-nr a:hover {
@@ -1665,7 +1663,6 @@
 
 .main-floor-special-slidercon-item>a {
   display: block;
-  cursor: pointer;
 }
 
 .main-floor-special-slidercon-item>a>img {
@@ -1768,17 +1765,26 @@
   padding-top: 20px;
 }
 
-.main-floor-AprilOuting-left {
-  float: left;
+.main-floor-AprilOuting-left， .main-floor-AprilOuting-right {
   width: 415px;
   overflow: hidden;
 }
 
-.main-floor-AprilOuting-left>ul {
+.main-floor-AprilOuting-left {
+  float: left;
+}
+
+.main-floor-AprilOuting-right {
+  float: right;
+}
+
+.main-floor-AprilOuting-left>ul,
+.main-floor-AprilOuting-right>ul {
   width: 425px;
 }
 
-.main-floor-AprilOuting-left-item {
+.main-floor-AprilOuting-left-item,
+.main-floor-AprilOuting-right-item {
   position: relative;
   width: 135px;
   height: 135px;
@@ -1793,19 +1799,45 @@
   margin: 0 5px 5px 0;
 }
 
-.main-floor-AprilOuting-left-item>a {
+.main-floor-AprilOuting-right-item01 {
+  position: relative;
+  float: left;
+  width: 415px;
+  height: 135px;
+  margin: 0 5px 5px 0;
+}
+
+.main-floor-AprilOuting-left-item>a,
+.main-floor-AprilOuting-right-item>a {
   display: block;
-  cursor: pointer;
-  width: 100%;
-  height: 100%;
+  width: 135px;
+  height: 135px;
+}
+
+.main-floor-AprilOuting-right-item01>a>span {
+  position: absolute;
+  top: 45px;
+  left: 50%;
+  width: 80px;
+  margin-left: -40px;
+  text-align: center;
+  font-size: 20px;
+  color: #6a694e;
+  font-weight: bold;
 }
 
 .main-floor-AprilOuting-left-item>a>img {
-  width: 100%;
-  height: 100%;
+  width: 135px;
+  height: 135px;
 }
 
-.main-floor-AprilOuting-left-item>a>b {
+.main-floor-AprilOuting-right-item>a>img {
+  width: 135px;
+  height: 135px;
+}
+
+.main-floor-AprilOuting-left-item>a>b,
+.main-floor-AprilOuting-right-item>a>b {
   display: flex;
   align-items: center;
   position: absolute;
@@ -1816,7 +1848,8 @@
   text-align: center;
 }
 
-.main-floor-AprilOuting-left-item>a>b>span {
+.main-floor-AprilOuting-left-item>a>b>span,
+.main-floor-AprilOuting-right-item>a>b>span {
   flex: 1;
   display: block;
   font-size: 14px;
@@ -1826,7 +1859,8 @@
   z-index: 5;
 }
 
-.main-floor-AprilOuting-left-item>a>div.AprilOuting-cover {
+.main-floor-AprilOuting-left-item>a>div.AprilOuting-cover,
+.main-floor-AprilOuting-right-item>a>div.AprilOuting-cover {
   position: absolute;
   top: 0;
   left: 0;
@@ -1835,4 +1869,213 @@
   color: #fff;
   background-color: rgba(0, 0, 0, 0.2);
   z-index: 1;
+}
+
+.main-floor-AprilOuting-center {
+  float: left;
+  margin-left: 3px;
+  width: 334px;
+  height: 415px;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  background-image: url(../images/main_floor_AprilOuting_center_bg.jpg);
+  background-repeat: no-repeat;
+}
+
+.main-floor-AprilOuting-center>strong {
+  font-size: 18px;
+  color: #55c0f8;
+  font-weight: bold;
+}
+
+.main-floor-AprilOuting-center>a {
+  display: block;
+  padding: 0 20px;
+  margin: 10px 0;
+  line-height: 30px;
+  border-radius: 15px;
+  font-size: 14px;
+  background: #fff;
+}
+
+.main-floor-AprilOuting-center>a:hover {
+  color: #fa8d00;
+}
+
+/* 2.2.5 攻略 贴士 百宝箱 */
+.main-floor-strategy {
+  height: 454px;
+  background-color: #f7f7f7;
+}
+
+.main-floor-strategy .container {
+  padding: 30px 0px;
+}
+
+.main-floor-strategy-title {
+  position: relative;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 2px solid #59af42;
+}
+
+.main-floor-strategy-title>strong {
+  padding-left: 40px;
+  margin-right: 20px;
+  font-weight: normal;
+  font-size: 18px;
+  color: #59af42;
+}
+
+.main-floor-strategy-title>strong>i {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background-image: url(../images/spirit_01.png);
+  background-size: 600px 500px;
+  background-position: -124px -128px;
+}
+
+.main-floor-strategy-title>strong>a {
+  color: #59af42;
+}
+
+.main-floor-strategy-title>strong>a:hover {
+  color: #fa8d00;
+}
+
+.main-floor-strategy-title>a {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 14px;
+  color: #999;
+}
+
+.main-floor-strategy-title>a:hover {
+  color: #fa8d00;
+}
+
+.main-floor-strategy-left {
+  float: left;
+  width: 436px;
+}
+
+.main-floor-strategy-left-item01 {
+  position: relative;
+  width: 421px;
+  height: 266px;
+  padding: 20px 20px 0 0;
+  margin-bottom: 10px;
+}
+
+.main-floor-strategy-left-item {
+  width: 50%;
+  float: left;
+  height: 26px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  line-height: 26px;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.main-floor-strategy-left-item01>a {
+  display: block;
+  width: 421px;
+  height: 266px;
+  overflow: hidden;
+}
+
+.main-floor-strategy-left-item>a {
+  margin-left: 5px;
+  overflow: hidden;
+}
+
+.main-floor-strategy-left-item>a:hover {
+  color: #fa8d00;
+}
+
+.main-floor-strategy-left-item01>a>img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.2s linear;
+}
+
+.main-floor-strategy-left-item01>a>img:hover {
+  transform: scale(1.08);
+}
+
+.main-floor-strategy-left-item01>b {
+  display: block;
+  position: absolute;
+  top: 246px;
+  left: 0;
+  width: 421px;
+  line-height: 40px;
+  /* 缩进10px  比padding和margin要好用点，但是它只是针对第一行*/
+  text-indent: 10px;
+  font-weight: normal;
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.main-floor-strategy-left-item01>b>a {
+  color: #fff;
+}
+
+.main-floor-strategy-left-item01>b>a:hover {
+  color: #fa8d00;
+}
+
+.main-floor-strategy-left-item.a {
+  color: #555;
+}
+
+.main-floor-strategy-center {
+  float: left;
+  width: 390px;
+  margin-top: 20px;
+}
+
+.main-floor-strategy-center-pic {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.main-floor-strategy-center-pic>a {
+  display: block;
+  color: #333;
+  width: 390px;
+}
+
+.main-floor-strategy-center-pic>a>b {
+  position: absolute;
+  bottom: 50px;
+  right: 10px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.main-floor-strategy-center-pic>a>p {
+  position: absolute;
+  bottom: 22px;
+  right: 10px;
+}
+
+.main-floor-strategy-center-pic>a>p>span {
+  display: inline-block;
+  padding: 3px 5px;
+  border-radius: 3px;
+  margin-left: 5px;
+  color: #7fe26f;
+  background: #fff8dd;
+}
+
+.main-floor-strategy-center-pic>a>img {
+  width: 390px;
 }

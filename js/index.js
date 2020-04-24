@@ -139,4 +139,5 @@ $(function () {
     $('.main-floor-special-sliderbar-recommend-item').eq($index).show();
     $('.main-floor-special-sliderbar-recommend-item').eq($index).siblings().hide();
   })
+
 })
