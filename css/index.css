@@ -2079,3 +2079,250 @@
 .main-floor-strategy-center-pic>a>img {
   width: 390px;
 }
+
+.main-floor-strategy-center-list>li {
+  padding: 0 10px;
+  height: 43px;
+  line-height: 40px;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.main-floor-strategy-center-list>li:before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  background-image: url(../images/main_floor_strategy_center_icon.png);
+}
+
+.main-floor-strategy-center-list>li>a {
+  color: #555;
+}
+
+.main-floor-strategy-center-list>li>a:hover {
+  color: #fa8d00;
+}
+
+.main-floor-strategy-right {
+  width: 362px;
+  float: right;
+  margin-top: 20px;
+}
+
+.main-floor-strategy-right-item {
+  width: 120px;
+  float: left;
+  height: 110px;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+}
+
+.main-floor-strategy-right-item:nth-child(3n) {
+  border-right: none;
+}
+
+.main-floor-strategy-right-item:nth-last-child(-n+3) {
+  border-bottom: none;
+}
+
+.main-floor-strategy-right-item>a {
+  display: block;
+  height: 20px;
+  padding-top: 70px;
+  text-align: center;
+  background-image: url(../images/spirit_01.png);
+  background-repeat: no-repeat;
+  background-position: 0px -318px;
+}
+
+.main-floor-strategy-right-item:first-child>a:hover {
+  background-image: url(../images/strategy_01.gif);
+  background-position: 5px -7px;
+}
+
+.main-floor-strategy-right-item:nth-child(2)>a {
+  background-position: -124px -318px;
+}
+
+.main-floor-strategy-right-item:nth-child(2)>a:hover {
+  background-image: url(../images/strategy_02.gif);
+  background-position: 5px -7px;
+}
+
+.main-floor-strategy-right-item:nth-child(3)>a {
+  background-position: -246px -318px;
+}
+
+.main-floor-strategy-right-item:nth-child(3)>a:hover {
+  background-image: url(../images/strategy_03.gif);
+  background-position: -2px -7px;
+}
+
+.main-floor-strategy-right-item:nth-child(4)>a {
+  background-position: -360px -318px;
+}
+
+.main-floor-strategy-right-item:nth-child(4)>a:hover {
+  background-image: url(../images/strategy_04.gif);
+  background-position: 5px -7px;
+}
+
+.main-floor-strategy-right-item:nth-child(5)>a {
+  background-position: -481px -318px;
+}
+
+.main-floor-strategy-right-item:nth-child(5)>a:hover {
+  background-image: url(../images/strategy_05.gif);
+  background-position: 4px -7px;
+}
+
+.main-floor-strategy-right-item:nth-child(6)>a {
+  background-position: -5px -391px;
+}
+
+.main-floor-strategy-right-item:nth-child(6)>a:hover {
+  background-image: url(../images/strategy_06.gif);
+  background-position: 0px -7px;
+}
+
+.main-floor-strategy-right-item:nth-child(7)>a {
+  background-position: -121px -391px;
+}
+
+.main-floor-strategy-right-item:nth-child(7)>a:hover {
+  background-image: url(../images/strategy_07.gif);
+  background-position: 4px -5px;
+}
+
+.main-floor-strategy-right-item:nth-child(8)>a {
+  background-position: -242px -391px;
+}
+
+.main-floor-strategy-right-item:nth-child(8)>a:hover {
+  background-image: url(../images/strategy_08.gif);
+  background-position: 3px -5px;
+}
+
+.main-floor-strategy-right-item:last-child>a {
+  background-position: -368px -391px;
+}
+
+.main-floor-strategy-right-item:last-child>a:hover {
+  background-image: url(../images/strategy_09.gif);
+  background-position: -3px -5px;
+}
+
+.main-floor-strategy-right-item>a:hover {
+  color: #fa8d00;
+}
+
+/* 2.2.6 floor部分的底部 */
+.main-floor-bottom {
+  height: 241px;
+}
+
+.main-floor-bottom .container {
+  padding: 30px 0px;
+}
+
+.main-floor-bottom-title {
+  margin-top: 20px;
+  border-bottom: 1px solid #dedede;
+}
+
+.main-floor-bottom-title>b {
+  display: block;
+  position: relative;
+  width: 160px;
+  margin: 0 auto;
+  margin-bottom: -10px;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  font-weight: normal;
+  background-color: #fff;
+}
+
+.main-floor-bottom-title>b>s {
+  position: absolute;
+  top: 8px;
+  width: 5px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #dedede;
+}
+
+.main-floor-bottom-title>b>s.first {
+  left: 0px;
+}
+
+.main-floor-bottom-title>b>s.last {
+  right: 0px;
+}
+
+.main-floor-bottom-content {
+  margin-top: 40px;
+}
+
+.main-floor-bottom-content>a {
+  display: block;
+}
+
+.main-floor-bottom-content>a>ul {
+  text-align: center;
+}
+
+.main-floor-bottom-item {
+  display: inline-block;
+  width: 10%;
+  text-align: center;
+}
+
+.main-floor-bottom-item>i {
+  display: block;
+  width: 55px;
+  height: 70px;
+  margin: 0 auto;
+  background-image: url(../images/spirit_01.png);
+  background-repeat: no-repeat;
+  background-position: 0px -161px;
+  margin-bottom: 5px;
+}
+
+.main-floor-bottom-item:nth-child(2)>i {
+  background-position: -55px -161px;
+}
+
+.main-floor-bottom-item:nth-child(3)>i {
+  background-position: -110px -161px;
+}
+
+.main-floor-bottom-item:nth-child(4)>i {
+  background-position: -165px -161px;
+}
+
+.main-floor-bottom-item:nth-child(5)>i {
+  background-position: -220px -161px;
+}
+
+.main-floor-bottom-item:nth-child(6)>i {
+  background-position: -275px -161px;
+}
+
+.main-floor-bottom-item:nth-child(7)>i {
+  background-position: -330px -161px;
+}
+
+.main-floor-bottom-item:nth-child(8)>i {
+  background-position: -385px -161px;
+}
+
+.main-floor-bottom-item:nth-child(9)>i {
+  background-position: -440px -161px;
+}
