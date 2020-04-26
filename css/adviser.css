@@ -1,0 +1,15 @@
+/* 1.头部 */
+.header-other {
+  margin: 10px 30px 0 644px;
+}
+
+.header-list-content {
+  padding-left: 52px;
+}
+
+.header-list-content>a:first-child {
+  padding: 4px 10px;
+  background-color: #00bf4b;
+  color: #fff;
+  border-radius: 3px;
+}
