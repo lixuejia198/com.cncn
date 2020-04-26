@@ -140,4 +140,11 @@ $(function () {
     $('.main-floor-special-sliderbar-recommend-item').eq($index).siblings().hide();
   })
 
+  // 底部微信二维码
+  $('.footer-service-others>span.weixin').hover(function () {
+    $('.footer-service-others-hidebox').show()
+  }, function () {
+    $('.footer-service-others-hidebox').hide()
+  })
+
 })
