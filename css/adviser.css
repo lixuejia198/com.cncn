@@ -13,3 +13,779 @@
   color: #fff;
   border-radius: 3px;
 }
+
+/* 2.主体 */
+/* 2.1 banner部分 */
+.main-banner {
+  position: relative;
+  height: 270px;
+  text-align: center;
+  background-color: #f4f4f4;
+  background-image: url(../images/banner_bg02.jpg);
+  background-repeat: no-repeat;
+  background-position: center 0;
+  z-index: 10;
+}
+
+.main-banner-imgbg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.main-banner-imgbg>img {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -960px;
+  transition: all 0.5s linear;
+}
+
+.main-banner-searchcon {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 60px 0 30px 0;
+  z-index: 2;
+}
+
+.main-banner-searchcon>b {
+  display: inline-block;
+  font-size: 26px;
+  color: #333;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+.main-banner-searchcon-text {
+  display: inline-block;
+}
+
+.main-banner-searchcon-text>form>input {
+  width: 500px;
+  height: 48px;
+  border: none;
+  padding: 0px 10px 0px 40px;
+  font-size: 16px;
+  border-radius: 24px 0px 0px 24px;
+  outline: none;
+  background-color: #fff;
+  background-image: url(../images/spirit_05.png);
+  background-repeat: no-repeat;
+  background-position: -230px 15px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.main-banner-searchcon>a {
+  display: inline-block;
+  width: 120px;
+  margin-left: -4px;
+  line-height: 48px;
+  vertical-align: -1px;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  border-radius: 0 24px 24px 0;
+  background-color: #ff9911;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.main-banner-searchcon-money {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  padding: 0 0 0 50px;
+  margin-left: 40px;
+  text-align: left;
+}
+
+.main-banner-searchcon-money>i {
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 37px;
+  height: 48px;
+  background-image: url(../images/spirit_05.png);
+  background-repeat: no-repeat;
+}
+
+.main-banner-searchcon-money>b {
+  display: block;
+  font-size: 16px;
+  color: #f94638;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.main-banner-searchcon-money>span {
+  color: #999;
+}
+
+.main-banner-searchcon-hidebox {
+  display: none;
+  position: absolute;
+  top: 112px;
+  left: 198px;
+  width: 645px;
+  padding: 20px;
+  border: 1px solid #c9c9c9;
+  border-radius: 0 0 3px 3px;
+  text-align: left;
+  background: #fff;
+}
+
+.main-banner-searchcon-hidebox-left {
+  float: left;
+  width: 400px;
+}
+
+.main-banner-searchcon-hidebox-right {
+  float: right;
+  width: 245px;
+}
+
+.main-banner-searchcon-hidebox-left>strong,
+.main-banner-searchcon-hidebox-right>strong {
+  font-size: 16px;
+  color: #0dc17b;
+  font-weight: normal;
+}
+
+.main-banner-searchcon-hidebox-left-item,
+.main-banner-searchcon-hidebox-right-item {
+  line-height: 30px;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.main-banner-searchcon-hidebox-left-item>dt,
+.main-banner-searchcon-hidebox-right-item>dt {
+  position: relative;
+  bottom: -1px;
+  width: 40px;
+  float: left;
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+}
+
+.main-banner-searchcon-hidebox-right-item>dt {
+  width: 50px;
+}
+
+.main-banner-searchcon-hidebox-left-item>dd,
+.main-banner-searchcon-hidebox-right-item>dd {
+  float: right;
+  width: 360px;
+}
+
+.main-banner-searchcon-hidebox-right-item>dd {
+  width: 189px;
+}
+
+.main-banner-searchcon-hidebox-left-item>dd>a,
+.main-banner-searchcon-hidebox-right-item>dd>a {
+  display: inline-block;
+  margin-right: 15px;
+  color: #555;
+}
+
+.main-banner-searchcon-hidebox-left-item>dd>a:hover,
+.main-banner-searchcon-hidebox-right-item>dd>a:hover {
+  color: #ff850e;
+}
+
+.main-banner-list {
+  display: inline-block;
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+  z-index: 1;
+}
+
+.main-banner-list-txt {
+  width: 910px;
+  height: 80px;
+  padding: 15px 10px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.main-banner-list-txt>ul {
+  width: 2000px;
+}
+
+.main-banner-list-txt>ul>li {
+  width: 72px;
+  float: left;
+  height: 72px;
+  line-height: 72px;
+  margin: 0 15px 0 0;
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+  border: 3px solid #ccc;
+  border-radius: 50%;
+  background: #fff;
+  transition: all 0.3s linear;
+}
+
+.main-banner-list-txt>ul>li:hover {
+  transform: scale(1.15);
+  border: 3px solid #00be49;
+}
+
+.main-banner-list-txt>ul>li>a {
+  display: block;
+  color: #555;
+}
+
+.main-banner-list-btn {
+  position: relative;
+}
+
+.main-banner-list-btn>a {
+  position: absolute;
+  top: -75px;
+  width: 20px;
+  height: 40px;
+  background-color: #000;
+  opacity: 0.4
+}
+
+.main-banner-list-btn>a.left {
+  left: 110px;
+}
+
+.main-banner-list-btn>a.right {
+  right: 110px;
+}
+
+.main-banner-list-btn>a:hover {
+  opacity: 0.6;
+}
+
+.main-banner-list-btn>a>i {
+  display: inline-block;
+  width: 8px;
+  height: 12px;
+  margin: 14px 0 0 6px;
+  background-image: url(../images/spirit_06.png);
+  background-repeat: no-repeat;
+  background-position: -101px 0px;
+}
+
+.main-banner-list-btn>a.right>i {
+  background-position: -109px 0px;
+}
+
+/* 2.2 热门主题 */
+.main-hottheme {
+  position: relative;
+  height: 316px;
+  z-index: 1;
+}
+
+.main-hottheme-title {
+  margin: 30px 0 20px 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+.main-hottheme-content>ul {
+  width: 1220px;
+}
+
+.main-hottheme-content-item {
+  position: relative;
+  top: 0px;
+  float: left;
+  height: 260px;
+  margin-right: 20px;
+  transition: all 0.3s linear;
+}
+
+.main-hottheme-content-item:hover {
+  top: -4px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.main-hottheme-content-item>img {
+  width: 285px;
+  height: 260px;
+}
+
+.main-hottheme-content-item>div.hidebox {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 24px;
+  padding: 10px 0;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  overflow: hidden;
+}
+
+.main-hottheme-content-item>div.hidebox>strong {
+  display: block;
+  padding-bottom: 12px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.main-hottheme-content-item>div.hidebox>a {
+  display: inline-block;
+  padding: 0 20px;
+  line-height: 35px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 3px;
+  background: #00bf49;
+  overflow: hidden;
+}
+
+/* 2.3 客人评价 */
+.main-assessment {
+  position: relative;
+  z-index: 1;
+}
+
+.main-assessment-usersay {
+  width: 285px;
+  float: right;
+}
+
+.main-assessment-usersay-title {
+  line-height: 40px;
+}
+
+.main-assessment-usersay-title>strong {
+  font-weight: normal;
+  font-size: 20px;
+  color: #f91;
+}
+
+.main-assessment-usersay-content {
+  width: 100%;
+  background-color: #f1f1f1;
+  overflow: hidden;
+}
+
+.main-assessment-usersay-content>ul>li {
+  width: 255px;
+  float: left;
+  padding: 15px;
+}
+
+.main-assessment-usersay-content .use-assess {
+  position: relative;
+  height: 147px;
+  padding: 15px 10px 15px 59px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.main-assessment-usersay-content .use-assess>i {
+  display: inline-block;
+  position: absolute;
+  bottom: -8px;
+  left: 10px;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  margin-left: 5px;
+  vertical-align: 2px;
+  border-top: 8px solid #fff;
+  border-bottom: none;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  overflow: hidden;
+}
+
+.main-assessment-usersay-content .use-assess>img {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.main-assessment-usersay-content .use-assess>b {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.main-assessment-usersay-content .use-assess>p {
+  display: block;
+  max-height: 52px;
+  font-size: 14px;
+  line-height: 18px;
+  overflow: hidden;
+}
+
+.main-assessment-usersay-content .use-assess>div.pic {
+  margin-top: 16px;
+}
+
+.main-assessment-usersay-content .use-assess>div.pic>img {
+  float: left;
+  margin: 0px 3px 3px 0px;
+  overflow: hidden;
+  width: 60px;
+  height: 60px;
+}
+
+.main-assessment-usersay-content .use-assess>div.pic>img:last-child {
+  margin: 0;
+}
+
+.main-assessment-usersay-content .pro-info {
+  margin-top: 15px;
+}
+
+.main-assessment-usersay-content .pro-info>strong {
+  display: block;
+  height: 24px;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #333;
+  overflow: hidden;
+}
+
+.main-assessment-usersay-content .pro-info>strong>a:hover {
+  color: #ff850e;
+}
+
+.main-assessment-usersay-content .pro-info>p {
+  font-size: 14px;
+  color: #999;
+  line-height: 20px;
+}
+
+.main-assessment-usersay-content .pro-info>p>em {
+  color: #f80;
+  font-weight: normal;
+}
+
+.main-assessment-usersay-content .pro-info>p>a {
+  color: #00a2d6;
+}
+
+.main-assessment-usersay-content .line {
+  height: 0;
+  margin: 15px 0 20px 0;
+  border-top: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.main-assessment-recommend {
+  margin-right: 305px;
+}
+
+.main-assessment-recommend-title {
+  margin-bottom: 20px;
+  line-height: 40px;
+  border-bottom: 2px solid #00c94c;
+  overflow: hidden;
+}
+
+.main-assessment-recommend-title>strong {
+  float: left;
+  font-size: 20px;
+  color: #00c94c;
+  font-weight: normal;
+}
+
+.main-assessment-recommend-title>strong>i {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-right: 5px;
+  vertical-align: -8px;
+  background-image: url(../images/spirit_05.png);
+  background-repeat: no-repeat;
+  background-position: -37px 0px;
+}
+
+.main-assessment-recommend-title>a {
+  float: right;
+  font-size: 18px;
+}
+
+.main-assessment-recommend-title>a>em {
+  padding-right: 5px;
+  color: #f80;
+  font-weight: normal;
+}
+
+/* 2.4 旅行成果 */
+.main-journey {
+  position: relative;
+  height: 500px;
+  background-image: url(../images/main_journey_bg.jpg);
+  background-position: center 0;
+  background-color: #0dc17b;
+}
+
+.main-journey-userphoto {
+  width: 740px;
+  float: left;
+}
+
+.main-journey-userphoto-title {
+  padding: 20px 0 10px 0;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+
+.main-journey-userphoto-title>em {
+  padding: 0 5px;
+  color: #FFFF30;
+  font-weight: normal;
+}
+
+.main-journey-userphoto-content {
+  position: relative;
+  height: 450px;
+}
+
+.main-journey-userphoto-item {
+  position: absolute;
+  width: 102px;
+  height: 82px;
+  z-index: 1;
+  background-color: #ff9911;
+}
+
+.main-journey-userphoto-item:first-child {
+  left: 205px;
+  top: 0px;
+}
+
+.main-journey-userphoto-item:nth-child(2) {
+  left: 311px;
+  top: 0px;
+}
+
+.main-journey-userphoto-item:nth-child(3) {
+  left: 417px;
+  top: 0px;
+}
+
+.main-journey-userphoto-item:nth-child(4) {
+  left: 79px;
+  top: 86px;
+}
+
+.main-journey-userphoto-item:nth-child(5) {
+  left: 185px;
+  top: 86px;
+}
+
+.main-journey-userphoto-item:nth-child(6) {
+  left: 291px;
+  top: 86px;
+}
+
+.main-journey-userphoto-item:nth-child(7) {
+  left: 397px;
+  top: 86px;
+}
+
+.main-journey-userphoto-item:nth-child(8) {
+  left: 503px;
+  top: 86px;
+}
+
+.main-journey-userphoto-item:nth-child(9) {
+  left: 106px;
+  top: 172px;
+}
+
+.main-journey-userphoto-item:nth-child(10) {
+  left: 212px;
+  top: 172px;
+}
+
+.main-journey-userphoto-item:nth-child(11) {
+  left: 424px;
+  top: 172px;
+}
+
+.main-journey-userphoto-item:nth-child(12) {
+  left: 318px;
+  top: 172px;
+}
+
+.main-journey-userphoto-item:nth-child(13) {
+  left: 166px;
+  top: 258px;
+}
+
+.main-journey-userphoto-item:nth-child(14) {
+  left: 272px;
+  top: 258px;
+}
+
+.main-journey-userphoto-item:nth-child(15) {
+  left: 378px;
+  top: 258px;
+}
+
+.main-journey-userphoto-item:nth-child(16) {
+  left: 484px;
+  top: 258px;
+}
+
+.main-journey-userphoto-item:nth-child(17) {
+  left: 141px;
+  top: 344px;
+}
+
+.main-journey-userphoto-item:nth-child(18) {
+  left: 247px;
+  top: 344px;
+}
+
+.main-journey-userphoto-item:nth-child(19) {
+  left: 353px;
+  top: 344px;
+}
+
+.main-journey-userphoto-item:nth-child(20) {
+  left: 459px;
+  top: 344px;
+}
+
+.main-journey-userphoto-item>img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-journey-starting {
+  width: 460px;
+  float: right;
+}
+
+.main-journey-starting>h3 {
+  padding: 20px 0px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.main-journey-starting>div.scroll {
+  height: 345px;
+  margin: 10px 0px 20px 0px;
+  color: #fff;
+  overflow: hidden;
+}
+
+.main-journey-starting>a {
+  display: inline-block;
+  width: 250px;
+  margin-left: 80px;
+  line-height: 42px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #ffb130;
+}
+
+.main-journey-starting>a:hover {
+  background-color: #ff7e00;
+}
+
+.main-journey-starting-item {
+  height: 120px;
+}
+
+.main-journey-starting-item>img {
+  float: left;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;;
+}
+
+.main-journey-starting-item>div.message {
+  float: right;
+  width: 380px;
+}
+
+.main-journey-starting-item>div.message>b {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.main-journey-starting-item>div.message>b>em {
+  padding-left: 15px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.main-journey-starting-item>div.message>p {
+  height: 36px;
+  line-height: 18px;
+  overflow: hidden;
+}
+
+.main-journey-starting-item>div.message>span {
+  display: inline-block;
+  height: 30px;
+  margin-top: 5px;
+  padding-left: 20px;
+  line-height: 28px;
+  background-image: url(../images/starting-icon.png);
+  background-repeat: no-repeat;
+}
+
+.main-journey-starting-item>div.message>span>em {
+  display: block;
+  height: 28px;
+  padding-right: 20px;
+  margin-top: 4px;
+  background-image: url(../images/starting-icon.png);
+  background-repeat: no-repeat;
+  background-position: right -30px;
+  font-weight: normal;
+}
+
+.main-journey-starting-item>div.message>span>em>a {
+  padding: 0px 3px;
+  color: #ffe34b;
+}
+
+
+
+
+
+
+
+
+.previewShowWindow {
+  display: none;
+  position: absolute;
+  border: 1px solid #dedede;
+  background-color: #95959d;
+  padding: 5px;
+  color: #fff;
+  text-align: center;
+  z-index: 999;
+}
+
+.previewShowWindow>img {
+  max-width: 600px;
+  min-height: 400px;
+}
