@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>欣欣优选</title>
+  <!-- 引入清除浏览器默认样式 -->
+  <link rel="stylesheet" href="./lib/reset/reset.css">
+  <!-- 引入公共样式 -->
+  <link rel="stylesheet" href="./css/common.css">
+  <!-- 引入自己写的样式 -->
+  <link rel="stylesheet" href="./css/preference.css">
+</head>
+
+<body>
+  <!-- 1.头部 -->
+  <header>
+    <!-- 1.1头部上部分 -->
+    <div class="header-top">
+      <div class="container clearfix">
+        <!-- 头部标志 -->
+        <div class="header-logo">
+          <img src="./images/header_logo.jpg" alt="">
+        </div>
+        <!-- 头部搜索框 -->
+        <div class="header-search clearfix">
+          <div class="header-search-curt">
+            <span>线路</span>
+            <i></i>
+            <ul class="curtlist">
+              <li>线路</li>
+              <li>门票</li>
+              <li>目的地</li>
+              <li>旅行社</li>
+            </ul>
+          </div>
+          <input type="text" class="header-search-input">
+          <button>搜&nbsp;索</button>
+          <div class="hearder-search-keyword">
+            <a href="javaScript:;">厦门</a>
+            <a href="javaScript:;">三亚</a>
+          </div>
+        </div>
+        <!-- 头部其他 -->
+        <div class="header-other">
+          <a href="javaScript:;">游客保障</a>
+          <div class="header-other-line"></div>
+          <div class="header-other-webnav">
+            <span>
+              网站导航
+              <i></i>
+            </span>
+          </div>
+          <div class="header-other-webnav-con">
+            <ul>
+              <li class="header-other-webnav-con-item">
+                <strong>
+                  <i class="i1"></i>
+                  旅游产品预定
+                </strong>
+                <a href="javaScript:;" class="hot">找顾问</a>
+                <a href="javaScript:;" class="hot">旅游定制</a>
+                <a href="javaScript:;">特价机票</a>
+                <a href="javaScript:;">酒店预定</a>
+                <a href="javaScript:;">周边游</a>
+                <a href="javaScript:;">门票预订</a>
+                <a href="javaScript:;">国内游</a>
+                <a href="javaScript:;">欣欣用车</a>
+                <a href="javaScript:;">出境游</a>
+                <a href="javaScript:;">旅游签证</a>
+              </li>
+              <li class="header-other-webnav-con-item">
+                <strong>
+                  <i class="i2"></i>
+                  旅游指南
+                </strong>
+                <a href="javaScript:;">目的地</a>
+                <a href="javaScript:;">旅游攻略</a>
+                <a href="javaScript:;">景点大全</a>
+                <a href="javaScript:;">旅游资讯</a>
+                <a href="javaScript:;">欣欣美食</a>
+                <a href="javaScript:;">欣欣特产</a>
+              </li>
+              <li class="header-other-webnav-con-item">
+                <strong>
+                  <i class="i3"></i>
+                  旅游百宝箱
+                </strong>
+                <a href="javaScript:;">火车查询</a>
+                <a href="javaScript:;">公交查询</a>
+                <a href="javaScript:;">动车查询</a>
+                <a href="javaScript:;">天气预报</a>
+                <a href="javaScript:;">汽车查询</a>
+                <a href="javaScript:;">电子地图</a>
+                <a href="javaScript:;">邮编查询</a>
+                <a href="javaScript:;">旅游网址</a>
+              </li>
+              <li class="header-other-webnav-con-item">
+                <strong>
+                  <i class="i4"></i>
+                  旅游服务平台
+                </strong>
+                <a href="javaScript:;">欣欣同业</a>
+                <a href="javaScript:;">同业助手</a>
+                <a href="javaScript:;">欣欣旺铺</a>
+                <a href="javaScript:;">欣欣建站</a>
+                <a href="javaScript:;">欣欣ERP</a>
+                <a href="javaScript:;">旅游信息化</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- 头部手机扫码服务 -->
+        <div class="header-ewn">
+          <a href="javaScript:;" class="header-ewn-content">
+            <i></i>
+            <b>扫一扫</b>
+            <s class="header-ewn-eweima-con-xsj"></s>
+            <span>手机服务更方便</span>
+          </a>
+          <div class="header-ewn-eweima">
+            <div class="header-ewn-eweima-con">
+              <s></s>
+              <i></i>
+            </div>
+            <a href="javaScript:;" class="header-ewn-eweima-service">
+              <img src="./images/cncn_qr.png" alt="">
+              欣欣旅游手机版
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 1.2头部下部分 -->
+    <div class="header-list">
+      <div class="container">
+        <ul class="clearfix">
+          <li class="header-list-item">
+            <a href="javaScript:;">
+              首页
+              <s></s>
+            </a>
+          </li>
+          <li class="header-list-item">
+            <a href="javaScript:;">
+              旅游顾问
+              <i></i>
+              <s></s>
+            </a>
+            <div class="hearder-list-content"></div>
+          </li>
+          <li class="header-list-item list-on">
+            <a href="javaScript:;">欣欣优选</a>
+            <div class="hearder-list-content"></div>
+          </li>
+          <li class="header-list-item">
+            <a href="javaScript:;">
+              跟团游
+              <i></i>
+              <s></s>
+            </a>
+            <div class="hearder-list-content"></div>
+          </li>
+          <li class="header-list-item">
+            <a href="javaScript:;">
+              自助游
+              <i></i>
+              <s></s>
+            </a>
+            <div class="hearder-list-content"></div>
+          </li>
+          <li class="header-list-item">
+            <a href="javaScript:;">
+              主题游
+              <i></i>
+              <s></s>
+            </a>
+            <div class="hearder-list-content"></div>
+          </li>
+          <li class="header-list-item">
+            <a href="javaScript:;">
+              目的地
+            </a>
+            <div class="hearder-list-content"></div>
+          </li>
+          <li class="header-list-item">
+            <a href="javaScript:;">
+              攻略
+              <i></i>
+              <s></s>
+            </a>
+            <div class="hearder-list-content"></div>
+          </li>
+          <li class="header-list-item">
+            <a href="javaScript:;">
+              百宝箱
+              <i></i>
+              <s></s>
+            </a>
+            <div class="hearder-list-content"></div>
+          </li>
+        </ul>
+        <div class="header-login clearfix">
+          <i></i>
+          <div class="header-login-user">
+            <a href="javaScript:;">登录</a>
+            &ensp;|&ensp;
+            <a href="javaScript:;">注册</a>
+            <div class="header-login-message">
+              <span>
+                <a href="javaScript:;" class="btn-login">登录欣欣</a>
+                <a href="javaScript:;" class="list-login">全部订单</a>
+                <a href="javaScript:;" class="list-login">手机查订单</a>
+              </span>
+            </div>
+          </div>
+          <b>
+            我的欣欣
+            <s></s>
+          </b>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- 2.主体 -->
+  <main>
+    <div class="main-banner"></div>
+    <div class="main-floor">
+      <div class="container">
+        <div class="main-floor-item one">
+          <div class="main-floor-item-title clearfix">
+            <strong title="当季推荐"></strong>
+          </div>
+          <div class="main-floor-item-content clearfix">
+            <div class="main-floor-item-sliderbar">
+              <div class="city">
+                <a href="javaScript:;"><i></i>重庆</a>
+                <a href="javaScript:;"><i></i>西安</a>
+                <a href="javaScript:;"><i></i>成都</a>
+              </div>
+              <div class="pic">
+                <span>—&emsp;走在旅游时尚的前沿&emsp;—</span>
+              </div>
+            </div>
+            <div class="main-floor-item-slidercon">
+              <div class="txt">
+                <ul class="clearfix">
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_preference_slidercon_item_01.jpg" alt="">
+                      <div class="text-con">
+                        <p>三亚蜈支洲岛一日游，零自费无购物亲海之旅</p>
+                        <div class="num-con clearfix">
+                          <span class="sale-con">省￥240</span>
+                          <span class="price-con"><em>￥<b>140</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_preference_slidercon_item_02.jpg" alt="">
+                      <div class="text-con">
+                        <p>乌鲁木齐出发：火州吐鲁番、葡萄庄园、坎儿井、火焰山纯玩一日游</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥140</span>
+                          <span class="price-con"><em>￥<b>158</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_preference_slidercon_item_03.jpg" alt="">
+                      <div class="text-con">
+                        <p>西安兵马俑华清池城墙钟鼓楼大雁塔2日游可含长恨歌门票晚发车</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥170</span>
+                          <span class="price-con"><em>￥<b>520</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_preference_slidercon_item_04.jpg" alt="">
+                      <div class="text-con">
+                        <p>福建人游厦门-鼓浪屿、日光岩、植物园、园博苑、同安4天3晚游</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥481</span>
+                          <span class="price-con"><em>￥<b>399</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_preference_slidercon_item_05.jpg" alt="">
+                      <div class="text-con">
+                        <p>草原休闲季节：呼和浩特周边内蒙古希拉穆仁草原一日游报价</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥60</span>
+                          <span class="price-con"><em>￥<b>100</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_preference_slidercon_item_06.jpg" alt="">
+                      <div class="text-con">
+                        <p>【散客天天发】新疆天山天池品质一日游 乌鲁木齐到天池纯玩游</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥230</span>
+                          <span class="price-con"><em>￥<b>168</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_preference_slidercon_item_07.jpg" alt="">
+                      <div class="text-con">
+                        <p>三亚南山寺＋天涯海角一日游、门票、含中餐、车接送、纯玩0购物</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥212</span>
+                          <span class="price-con"><em>￥<b>288</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_preference_slidercon_item_08.jpg" alt="">
+                      <div class="text-con">
+                        <p>《银川精品一日游A线》到沙湖、镇北堡影城、贺兰山岩画一日游</p>
+                        <div class="num-con">
+                          <span class="price-con"><em>￥<b>388</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-floor-item two">
+          <div class="main-floor-item-title clearfix">
+            <strong>华东</strong>
+            <a href="javaScript:;">更多></a>
+            <div class="list-nav">
+              <a href="javaScript:;" class="on">上海</a>
+              <a href="javaScript:;">安徽</a>
+              <a href="javaScript:;">浙江</a>
+            </div>
+          </div>
+          <div class="main-floor-item-content clearfix">
+            <div class="main-floor-item-sliderbar">
+              <div class="city">
+                <a href="javaScript:;">重庆</a>
+                <a href="javaScript:;">西安</a>
+                <a href="javaScript:;">成都</a>
+              </div>
+              <div class="pic">
+                <span>—&emsp;华东五市风光美&emsp;—</span>
+              </div>
+            </div>
+            <div class="main-floor-item-slidercon">
+              <div class="txt">
+                <ul></ul>
+              </div>
+              <div class="txt">
+                <ul class="clearfix">
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0201.jpg" alt="">
+                      <div class="text-con">
+                        <p>合肥到黄山旅游 黄山精华纯玩二日游（无购物无自费）</p>
+                        <div class="num-con clearfix">
+                          <span class="sale-con">省￥230</span>
+                          <span class="price-con"><em>￥<b>468</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0202.jpg" alt="">
+                      <div class="text-con">
+                        <p>精品热卖：黄山、宏村、篁岭、徽州古城、新安江山水画廊四日</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥1508</span>
+                          <span class="price-con"><em>￥<b>1180</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0203.jpg" alt="">
+                      <div class="text-con">
+                        <p>精品热卖：黄山、宏村、新安江山水画廊三日 黄山纯玩三日游</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥1060</span>
+                          <span class="price-con"><em>￥<b>828</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0204.jpg" alt="">
+                      <div class="text-con">
+                        <p>黄山、宏村、西递五日游线路 黄山及周边五日游线路---品质团</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥1060</span>
+                          <span class="price-con"><em>￥<b>1120</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0205.jpg" alt="">
+                      <div class="text-con">
+                        <p>精品热卖：黄山、宏村、篁岭三日游 黄山、宏村、篁岭三日游</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥1030</span>
+                          <span class="price-con"><em>￥<b>958</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0206.jpg" alt="">
+                      <div class="text-con">
+                        <p>纯玩小包团 合肥到三河古镇 国家五A级景区 三河古镇一日游</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥100</span>
+                          <span class="price-con"><em>￥<b>198</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0207.jpg" alt="">
+                      <div class="text-con">
+                        <p>合肥到九华山旅游 九华山许愿还愿 九华山祈福一日游（特价）</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥43</span>
+                          <span class="price-con"><em>￥<b>155</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0208.png" alt="">
+                      <div class="text-con">
+                        <p>精品热卖：黄山、宏村、篁岭、徽州古城、新安江山水画廊五日</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥1628</span>
+                          <span class="price-con"><em>￥<b>1660</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="txt">
+                <ul class="clearfix">
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0209.jpg" alt="">
+                      <div class="text-con">
+                        <p>杭州出发西塘古镇一日游(江南特色古镇)西塘古镇特价一日游团购</p>
+                        <div class="num-con clearfix">
+                          <span class="sale-con">省￥85</span>
+                          <span class="price-con"><em>￥<b>80</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0210.jpg" alt="">
+                      <div class="text-con">
+                        <p>杭州纯玩一日游（西湖游船+雷峰塔+飞来峰+灵隐寺+花港观鱼）</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥140</span>
+                          <span class="price-con"><em>￥<b>150</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0211.jpg" alt="">
+                      <div class="text-con">
+                        <p>杭州宋城一日游（宋城千古情+西溪湿地游船）宋城纯玩一日游报价</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥40</span>
+                          <span class="price-con"><em>￥<b>320</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0212.jpg" alt="">
+                      <div class="text-con">
+                        <p>杭州出发千岛湖一日游（车费+门票+导游+保险+游轮）每天发团</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥108</span>
+                          <span class="price-con"><em>￥<b>180</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0213.jpg" alt="">
+                      <div class="text-con">
+                        <p>杭州出发乌镇一日游（千年古镇江南水上人家）乌镇纯玩一日游</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥140</span>
+                          <span class="price-con"><em>￥<b>120</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-floor-item three">
+          <div class="main-floor-item-title clearfix">
+            <strong>华北</strong>
+            <a href="javaScript:;">更多></a>
+            <div class="list-nav">
+              <a href="javaScript:;" class="on">北京</a>
+              <a href="javaScript:;">山西</a>
+              <a href="javaScript:;">内蒙古</a>
+              <a href="javaScript:;">黑龙江</a>
+              <a href="javaScript:;">吉林</a>
+            </div>
+          </div>
+          <div class="main-floor-item-content clearfix">
+            <div class="main-floor-item-sliderbar">
+              <div class="city">
+                <a href="javaScript:;">呼伦贝尔</a>
+                <a href="javaScript:;">五台山</a>
+                <a href="javaScript:;">北戴河</a>
+              </div>
+              <div class="pic">
+                <span>—&emsp;看遍祖国大好河山&emsp;—</span>
+              </div>
+            </div>
+            <div class="main-floor-item-slidercon">
+              <div class="txt">
+                <ul class="clearfix">
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0301.jpg" alt="">
+                      <div class="text-con">
+                        <p>北京4晚5日游北京旅游-北京旅游多少钱-北京超值游</p>
+                        <div class="num-con clearfix">
+                          <span class="sale-con">省￥350</span>
+                          <span class="price-con"><em>￥<b>1030</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0302.jpg" alt="">
+                      <div class="text-con">
+                        <p>故宫天坛颐和园市内一日游纯玩团【5环内免费接】</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥32</span>
+                          <span class="price-con"><em>￥<b>288</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0303.jpg" alt="">
+                      <div class="text-con">
+                        <p>八达岭长城-十三陵定陵一日游【纯玩无自费】五环内免费到酒店接</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥62</span>
+                          <span class="price-con"><em>￥<b>258</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0304.jpg" alt="">
+                      <div class="text-con">
+                        <p>天津纯玩一日游（古文化街洋货市场+瓷房子+塘沽出海一价全含）</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥98</span>
+                          <span class="price-con"><em>￥<b>200</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0305.jpg" alt="">
+                      <div class="text-con">
+                        <p>北京出发到五台山双汽二日游 品金莲素斋 拜五爷纳祥 一价全含</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥160</span>
+                          <span class="price-con"><em>￥<b>238</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="txt">
+                <ul class="clearfix">
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0306.jpg" alt="">
+                      <div class="text-con">
+                        <p> <送一盏明灯>五台山精品二日游（含三正一早餐住宿宾馆升级版）</p>
+                        <div class="num-con clearfix">
+                          <span class="sale-con">省￥122</span>
+                          <span class="price-con"><em>￥<b>278</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0307.jpg" alt="">
+                      <div class="text-con">
+                        <p>太原到五台山一日游（门票全含，全程无自理，赠送五爷开光金卡）</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥61</span>
+                          <span class="price-con"><em>￥<b>189</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0308.jpg" alt="">
+                      <div class="text-con">
+                        <p>太原到五台山悬空寺云冈石窟二日游（住宿升级版赠云冈电瓶车）</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥160</span>
+                          <span class="price-con"><em>￥<b>528</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0309.jpg" alt="">
+                      <div class="text-con">
+                        <p>太原到平遥古城 乔家大院一日游（门票 电瓶车一价全含无自理）</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥140</span>
+                          <span class="price-con"><em>￥<b>258</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0310.jpg" alt="">
+                      <div class="text-con">
+                        <p> <宿古城客栈赏平遥夜景>太原到平遥古城壶口瀑布王家大院二日游</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥220</span>
+                          <span class="price-con"><em>￥<b>340</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="txt">
+                <ul class="clearfix">
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0311.jpg" alt="">
+                      <div class="text-con">
+                        <p>国庆：呼和浩特到额济纳胡杨林、怪树林、策克口岸双卧五日游报价</p>
+                        <div class="num-con clearfix">
+                          <span class="sale-con">省￥1340</span>
+                          <span class="price-con"><em>￥<b>1960</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0312.jpg" alt="">
+                      <div class="text-con">
+                        <p>【呼伦贝尔+阿尔山5天4晚】大草原满洲里阿尔山旅游纯玩五日游</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥800</span>
+                          <span class="price-con"><em>￥<b>2380</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0313.jpg" alt="">
+                      <div class="text-con">
+                        <p>【狂野穿越5天4晚】呼伦贝尔越野穿越大草原大兴安岭纯玩5日游</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥800</span>
+                          <span class="price-con"><em>￥<b>2180</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0314.jpg" alt="">
+                      <div class="text-con">
+                        <p>【4天3晚】呼伦贝尔大草原+室韦+边防线+满洲里四日游自由行</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥518</span>
+                          <span class="price-con"><em>￥<b>1780</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0315.jpg" alt="">
+                      <div class="text-con">
+                        <p>【3天2晚】呼伦贝尔旅游大草原额尔古纳满洲里纯玩3日游自由行</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥500</span>
+                          <span class="price-con"><em>￥<b>1280</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0316.jpg" alt="">
+                      <div class="text-con">
+                        <p>国庆摄影：呼和浩特到额济纳胡杨林、居延海、黑城双卧四日经典游</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥930</span>
+                          <span class="price-con"><em>￥<b>1850</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0317.jpg" alt="">
+                      <div class="text-con">
+                        <p>内蒙古草原三日经典游【希拉穆仁草原、5A响沙湾、成吉思汗陵】</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥70</span>
+                          <span class="price-con"><em>￥<b>480</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="main-floor-item-slidercon-li">
+                    <a href="javaScript:;">
+                      <img src="./images/main_floor_item_slidercon_0318.jpg" alt="">
+                      <div class="text-con">
+                        <p>草原沙漠自由游：呼和浩特周边内蒙古希拉穆仁草原、响沙湾二日游</p>
+                        <div class="num-con">
+                          <span class="sale-con">省￥120</span>
+                          <span class="price-con"><em>￥<b>240</b></em>起</span>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="txt">
+                <ul></ul>
+              </div>
+              <div class="txt">
+                <ul></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <!-- 引入jQuery -->
+  <script src="./lib/jQuery/jquery-3.4.1.min.js"></script>
+  <!-- 引入公共js -->
+  <script src="./js/common.js"></script>
+  <!-- 引入自己写的js -->
+  <script src="./js/preference.js"></script>
+</body>
+
+</html>
