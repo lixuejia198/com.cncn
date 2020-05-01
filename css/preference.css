@@ -165,6 +165,18 @@ div.three>.main-floor-item-title>strong {
   color: #e99161;
 }
 
+div.four>.main-floor-item-title>strong {
+  color: #c58edb;
+}
+
+div.five>.main-floor-item-title>strong {
+  color: #73b3cb;
+}
+
+div.six>.main-floor-item-title>strong {
+  color: #e9b4c1;;
+}
+
 .main-floor-item-title>a {
   float: right;
   padding-top: 12px;
@@ -199,6 +211,18 @@ div.three>.main-floor-item-title>div.list-nav>a.on {
   background-color: #e99161;
 }
 
+div.four>.main-floor-item-title>div.list-nav>a.on {
+  background-color: #c58edb;
+}
+
+div.five>.main-floor-item-title>div.list-nav>a.on {
+  background-color: #73b3cb;
+}
+
+div.six>.main-floor-item-title>div.list-nav>a.on {
+  background-color: #e9b4c1;
+}
+
 .main-floor-item-content {
   background-color: #fff;
   height: 517px;
@@ -226,6 +250,21 @@ div.two .main-floor-item-sliderbar {
 div.three .main-floor-item-sliderbar {
   border-top: 4px solid #eeb596;
   background-color: #f1e0d7;
+}
+
+div.four .main-floor-item-sliderbar {
+  border-top: 4px solid #ce9ee1;
+  background: #ecdff1;
+}
+
+div.five .main-floor-item-sliderbar {
+  border-top: 4px solid #73b3cb;
+  background: #c9dfe7;
+}
+
+div.six .main-floor-item-sliderbar {
+  border-top: 4px solid #ebbec8;
+  background: #eed3dc;
 }
 
 .main-floor-item-sliderbar>div.city {
@@ -286,6 +325,24 @@ div.three .main-floor-item-sliderbar>div.pic {
   background-position: bottom 0;
 }
 
+div.four .main-floor-item-sliderbar>div.pic {
+  background-image: url(../images/main_floor_item_sliderbar_04.png);
+  background-repeat: no-repeat;
+  background-position: bottom 0;
+}
+
+div.five .main-floor-item-sliderbar>div.pic {
+  background-image: url(../images/main_floor_item_sliderbar_05.png);
+  background-repeat: no-repeat;
+  background-position: bottom 0;
+}
+
+div.six .main-floor-item-sliderbar>div.pic {
+  background-image: url(../images/main_floor_item_sliderbar_06.png);
+  background-repeat: no-repeat;
+  background-position: bottom 0;
+}
+
 .main-floor-item-sliderbar>div.pic>span {
   position: absolute;
   bottom: 30px;
@@ -309,6 +366,18 @@ div.two .main-floor-item-slidercon {
 
 div.three .main-floor-item-slidercon {
   border-top: 4px solid #eeb596;
+}
+
+div.four .main-floor-item-slidercon {
+  border-top: 4px solid #ce9ee1;
+}
+
+div.five .main-floor-item-slidercon {
+  border-top: 4px solid #73b3cb;
+}
+
+div.six .main-floor-item-slidercon {
+  border-top: 4px solid #ebbec8;
 }
 
 .main-floor-item-slidercon>div.txt {
@@ -382,4 +451,27 @@ div.three .main-floor-item-slidercon {
   margin: 0 2px;
   font-size: 18px;
   font-family: arial;
+}
+
+/* 3.底部 */
+footer {
+  width: 100%;
+  padding: 10px 0 20px 0;
+  text-align: center;
+  color: #999;
+  font-family: arial;
+  overflow: hidden;
+}
+
+footer a {
+  padding: 0px 5px;
+}
+
+footer a:hover {
+  color: #fa8d00;
+}
+
+.footer-list,
+.footer-ft {
+  margin-bottom: 5px;
 }

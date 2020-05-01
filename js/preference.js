@@ -38,6 +38,35 @@ $(function () {
     $('.three .main-floor-item-slidercon>div.txt').eq(index).siblings('.txt').hide();
   })
 
+  $('.four .main-floor-item-title>div.list-nav>a').on('mouseover',function(){
+    let index = $(this).index();
+    // console.log(index);
+    $('.four .main-floor-item-title>div.list-nav>a').eq(index).addClass('on');
+    $('.four .main-floor-item-title>div.list-nav>a').eq(index).siblings('a').removeClass('on');
+    // console.log($('.main-floor-item-slidercon>div.txt').eq(index));
+    $('.four .main-floor-item-slidercon>div.txt').eq(index).show();
+    $('.four .main-floor-item-slidercon>div.txt').eq(index).siblings('.txt').hide();
+  })
+
+  $('.five .main-floor-item-title>div.list-nav>a').on('mouseover',function(){
+    let index = $(this).index();
+    // console.log(index);
+    $('.five .main-floor-item-title>div.list-nav>a').eq(index).addClass('on');
+    $('.five .main-floor-item-title>div.list-nav>a').eq(index).siblings('a').removeClass('on');
+    // console.log($('.main-floor-item-slidercon>div.txt').eq(index));
+    $('.five .main-floor-item-slidercon>div.txt').eq(index).show();
+    $('.five .main-floor-item-slidercon>div.txt').eq(index).siblings('.txt').hide();
+  })
+
+  $('.six .main-floor-item-title>div.list-nav>a').on('mouseover',function(){
+    let index = $(this).index();
+    // console.log(index);
+    $('.six .main-floor-item-title>div.list-nav>a').eq(index).addClass('on');
+    $('.six .main-floor-item-title>div.list-nav>a').eq(index).siblings('a').removeClass('on');
+    // console.log($('.main-floor-item-slidercon>div.txt').eq(index));
+    $('.six .main-floor-item-slidercon>div.txt').eq(index).show();
+    $('.six .main-floor-item-slidercon>div.txt').eq(index).siblings('.txt').hide();
+  })
 
 
 })
