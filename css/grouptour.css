@@ -117,6 +117,7 @@
   float: right;
 }
 
+/* banner部分的搜索框 */
 .main-banner-searchbox {
   height: 65px;
 }
@@ -213,6 +214,283 @@
   font-size: 20px;
   color: #fff;
   border: none;
-  background: #ff9100;
+  background-color: #ff9100;
   outline: none;
+  cursor: pointer;
+}
+
+.main-banner-searchbox-text2>form>input.btn:hover {
+  background-color: #ff7300;
+}
+
+.main-banner-searchbox-text2>div.hidebox {
+  display: none;
+  position: absolute;
+  top: 45px;
+  left: 10px;
+  z-index: 30;
+  border: #dddddd solid 1px;
+  width: 510px;
+}
+
+.main-banner-searchbox-text2>div.hidebox>ul {
+  line-height: 30px;
+}
+
+.main-banner-searchbox-item {
+  margin: 0 20px;
+  padding: 5px 0;
+  border-bottom: #dddddd dashed 1px;
+  margin-bottom: -1px;
+}
+
+.main-banner-searchbox-item>label {
+  display: inline-block;
+  width: 74px;
+  color: #999;
+}
+
+.main-banner-searchbox-item>div.content {
+  float: right;
+  width: 396px;
+  vertical-align: top;
+}
+
+.main-banner-searchbox-item>div.content>p {
+  width: 396px;
+}
+
+.main-banner-searchbox-item>div.content>p>a {
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.main-banner-searchbox-item>div.content>p>a.more {
+  float: right;
+}
+
+.main-banner-searchbox-item a:hover {
+  color: #fe8d00;
+}
+
+.main-banner-searchbox-key {
+  float: left;
+  width: 233px;
+  padding-left: 15px;
+  line-height: 45px;
+  overflow: hidden;
+  height: 45px;
+  font-size: 14px;
+  color: #999;
+}
+
+.main-banner-searchbox-key>a {
+  color: #999;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+.main-banner-searchbox-key>a:hover {
+  color: #fe8d00;
+}
+
+.main-banner-sliderbox {
+  width: 100%;
+  height: 385px;
+}
+
+/* 2.2 主体旅游部分 */
+.main-travel-boxcon-title {
+  height: 48px;
+  border-bottom: 3px solid #65b71f;
+}
+
+.main-travel-boxcon-title>h3 {
+  width: 220px;
+  float: left;
+  height: 40px;
+}
+
+.main-travel-boxcon-title>h3>a {
+  display: block;
+  width: 173px;
+  height: 27px;
+  margin-top: 16px;
+  line-height: 27px;
+  background-image: url(../images/spirit_08.png);
+  background-repeat: no-repeat;
+  background-position: 0px -323px;
+}
+
+.main-travel-boxcon-title>div.list {
+  float: left;
+  padding: 20px 0 0 0;
+  height: 23px;
+}
+
+.main-travel-boxcon-title>div.list>a {
+  display: inline-block;
+  padding: 0 10px;
+  line-height: 23px;
+  font-size: 14px;
+  background: url(../images/line_icon.png) no-repeat right 2px;
+}
+
+.main-travel-boxcon-title>div.list>a.on {
+  background-color: #65b71f;
+  color: #fff;
+  border-radius: 3px;
+  background-image: none;
+}
+
+.main-travel-boxcon-title>a {
+  float: right;
+  padding-top: 23px;
+  color: #999;
+}
+
+.main-travel-boxcon-title>a:hover {
+  color: #fe8d00;
+}
+
+.main-travel-boxcon-sliderbar {
+  width: 200px;
+  height: 432px;
+  float: left;
+  position: relative;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.main-travel-boxcon-sliderbar>a {
+  display: block;
+}
+
+.main-travel-boxcon-sliderbar>a>img {
+  display: block;
+}
+
+.main-travel-boxcon-sliderbar>p {
+  padding: 13px 10px 13px 40px;
+  border: 1px solid #e1ebd3;
+  border-top: none;
+  color: #6cb208;
+  background-color: #f4ffe5;
+}
+
+.main-travel-boxcon-sliderbar>p:first-child {
+  padding: 13px 10px 12px 40px;
+}
+
+.main-travel-boxcon-sliderbar>p>i {
+  position: absolute;
+  width: 26px;
+  height: 21px;
+  margin-left: -32px;
+  background-image: url(../images/spirit_08.png);
+  background-repeat: no-repeat;
+}
+
+.main-travel-boxcon-sliderbar>p>i.i1 {
+  background-position: 0px 0px;
+  margin-top: -6px;
+}
+
+.main-travel-boxcon-sliderbar>p>i.i2 {
+  margin-top: 0;
+  background-position: -27px 0px;
+}
+
+.main-travel-boxcon-sliderbar>p>i.i3 {
+  background-position: -54px 0px;
+}
+
+.main-travel-boxcon-sliderbar>p>a {
+  font-size: 14px;
+  padding-right: 10px;
+}
+
+.main-travel-boxcon-sliderbar>p>b {
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.main-travel-boxcon-sliderbar a {
+  color: #6cb208;
+}
+
+.main-travel-boxcon-sliderbar a:hover {
+  color: #fe8d00;
+}
+
+.main-travel-boxcon-slidercon {
+  width: 1000px;
+  float: right;
+  height: 422px;
+  padding-top: 10px;
+  overflow: hidden;
+}
+
+.main-travel-boxcon-slidercon-item {
+  position: relative;
+  width: 230px;
+  float: left;
+  padding: 10px 0 10px 20px;
+}
+
+.main-travel-boxcon-slidercon-item a:hover {
+  color: #fe8d00;
+}
+
+.main-travel-boxcon-slidercon-item>a>img {
+  display: block;
+  width: 230px;
+  height: 145px;
+}
+
+.main-travel-boxcon-slidercon-item>a>p {
+  height: 24px;
+  padding: 2px 0 3px;
+  line-height: 24px;
+  overflow: hidden;
+}
+
+.main-travel-boxcon-slidercon-item>a>div.other {
+  display: block;
+  width: 210px;
+  line-height: 24px;
+  color: #aaa;
+}
+
+.main-travel-boxcon-slidercon-item>a>div.other>span {
+  float: right;
+  line-height: 18px;
+}
+
+.main-travel-boxcon-slidercon-item>a>div.other>span.price {
+  float: left;
+  padding-right: 10px;
+  color: #f60;
+  font-family: "arial";
+}
+
+.main-travel-boxcon-slidercon-item>a>div.other>span.sale {
+  float: left;
+  height: 12px;
+  padding: 0 3px 0 16px;
+  margin-top: 4px;
+  line-height: 12px;
+  border: 1px solid #ff8d30;
+  color: #ff8d30;
+  font-family: "宋体";
+  background: url(../images/spirit_08.png) no-repeat -91px -184px;
+  overflow: hidden;
+}
+
+.main-travel-boxcon-slidercon-item>a>div.other>span.price>b {
+  padding-right: 3px;
+  font-size: 20px;
+  font-weight: normal;
 }
