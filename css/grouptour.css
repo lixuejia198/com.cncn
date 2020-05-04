@@ -229,8 +229,9 @@
   top: 45px;
   left: 10px;
   z-index: 30;
-  border: #dddddd solid 1px;
+  border: 1px solid #dddddd;
   width: 510px;
+  background-color: #fff;
 }
 
 .main-banner-searchbox-text2>div.hidebox>ul {
@@ -240,7 +241,7 @@
 .main-banner-searchbox-item {
   margin: 0 20px;
   padding: 5px 0;
-  border-bottom: #dddddd dashed 1px;
+  border-bottom: 1px dashed #dddddd;
   margin-bottom: -1px;
 }
 

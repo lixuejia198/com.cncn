@@ -1,0 +1,466 @@
+/* 1.头部 */
+.header-other {
+  margin: 10px 30px 0 741px;
+}
+
+.header-list-content {
+  padding-left: 222px;
+}
+
+.header-list-content>a:first-child {
+  padding: 4px 10px;
+  background-color: #00bf4b;
+  color: #fff;
+  border-radius: 3px;
+}
+
+/* 2.主体 */
+/* 2.1 主体部分搜索框 */
+.main-searchbox {
+  padding: 20px 0px;
+}
+
+.main-banner-searchbox {
+  padding-left: 83px;
+}
+
+.main-banner-searchbox-text1 {
+  position: relative;
+  width: 135px;
+  float: left;
+  height: 41px;
+  padding: 0 5px 0 10px;
+  line-height: 41px;
+  border: 2px solid #ff9100;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.main-banner-searchbox-text1>i {
+  float: left;
+  vertical-align: top;
+  background-position: 0 -238px;
+  width: 18px;
+  height: 22px;
+  margin: 10px 3px 0 0;
+  background-image: url(../images/spirit_07.png);
+  background-repeat: no-repeat;
+}
+
+.main-banner-searchbox-text1>strong {
+  width: 70px;
+  float: left;
+  border: 0 none;
+  font-size: 14px;
+  font-weight: normal;
+  color: #444;
+}
+
+.main-banner-searchbox-text1>span {
+  position: relative;
+  width: 30px;
+  float: left;
+  padding-right: 10px;
+  color: #777;
+}
+
+.main-banner-searchbox-text1>span>i {
+  position: absolute;
+  top: 0;
+  right: 3px;
+  width: 9px;
+  height: 5px;
+  margin: 18px 0 0 2px;
+  background-image: url(../images/spirit_03.png);
+  background-repeat: no-repeat;
+}
+
+.main-banner-searchbox-text2 {
+  float: left;
+  height: 30px;
+  padding: 0 0 0 10px;
+  line-height: 35px;
+  position: relative;
+}
+
+.main-banner-searchbox-text2>i {
+  position: absolute;
+  margin: 10px 0 0 12px;
+  display: inline-block;
+  vertical-align: top;
+  width: 22px;
+  height: 22px;
+  background-image: url(../images/spirit_07.png);
+  background-position: -22px -238px;
+}
+
+.main-banner-searchbox-text2>form>input {
+  width: 361px;
+  box-sizing: border-box;
+  float: left;
+  padding: 0 0 0 39px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 14px;
+  border: 2px solid #ff9100;
+  border-right: 0 none;
+  color: rgb(170, 170, 170);
+}
+
+.main-banner-searchbox-text2>form>input.btn {
+  height: 45px;
+  padding: 0;
+  width: 151px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 20px;
+  color: #fff;
+  border: none;
+  background-color: #ff9100;
+  outline: none;
+  cursor: pointer;
+}
+
+.main-banner-searchbox-text2>form>input.btn:hover {
+  background-color: #ff7300;
+}
+
+.main-banner-searchbox-text2>div.hidebox {
+  display: none;
+  position: absolute;
+  top: 45px;
+  left: 10px;
+  z-index: 30;
+  border: 1px solid #dddddd;
+  width: 510px;
+  background-color: #fff;
+}
+
+.main-banner-searchbox-text2>div.hidebox>ul {
+  line-height: 30px;
+}
+
+.main-banner-searchbox-item {
+  margin: 0 20px;
+  padding: 5px 0;
+  border-bottom: 1px dashed #dddddd;
+  margin-bottom: -1px;
+}
+
+.main-banner-searchbox-item>label {
+  display: inline-block;
+  width: 74px;
+  color: #999;
+}
+
+.main-banner-searchbox-item>div.content {
+  float: right;
+  width: 396px;
+  vertical-align: top;
+}
+
+.main-banner-searchbox-item>div.content>p {
+  width: 396px;
+}
+
+.main-banner-searchbox-item>div.content>p>a {
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.main-banner-searchbox-item>div.content>p>a.more {
+  float: right;
+}
+
+.main-banner-searchbox-item a:hover {
+  color: #fe8d00;
+}
+
+.main-banner-searchbox-key {
+  float: left;
+  width: 309px;
+  padding-left: 15px;
+  line-height: 45px;
+  overflow: hidden;
+  height: 45px;
+  font-size: 14px;
+  color: #999;
+}
+
+.main-banner-searchbox-key>a {
+  color: #999;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+.main-banner-searchbox-key>a:hover {
+  color: #fe8d00;
+}
+
+/* 2.1 热门旅游部分 */
+.main-hottravel {
+  background-color: #f7f7f7;
+  padding: 20px 0px;
+}
+
+.guonei {
+  background-color: #fff;
+}
+
+.jingwai {
+  background-color: #f7f7f7;
+}
+
+.main-hottravel-title {
+  border-bottom: 2px solid #00c94c;
+  line-height: 34px;
+  padding-bottom: 6px;
+}
+
+.guonei .main-hottravel-title {
+  border-bottom: 2px solid #ff9900;
+}
+
+.jingwai .main-hottravel-title {
+  border-bottom: 2px solid #4eb4fb;
+}
+
+.main-hottravel-title>span {
+  color: #00c94c;
+  font-size: 24px;
+}
+
+.guonei .main-hottravel-title>span {
+  color: #ff9900;
+}
+
+.jingwai .main-hottravel-title>span {
+  color: #4eb4fb;
+}
+
+.main-hottravel-title>span>i {
+  margin-right: 10px;
+  background-image: url(../images/spirit_09.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  /* 垂直对齐文本的底部 */
+  vertical-align: top;
+  width: 34px;
+  height: 34px;
+}
+
+.main-hottravel-title>span>i.zhoubian {
+  background-color: #00c94c;
+  border-radius: 50%;
+  background-position: 7px 6px;
+}
+
+.guonei .main-hottravel-title>span>i.zhoubian {
+  background-position: -34px 8px;
+  background-color: #ff9900;
+}
+
+.jingwai .main-hottravel-title>span>i.zhoubian {
+  background-position: -73px 7px;
+  background-color: #4eb4fb;
+}
+
+.main-hottravel-title>a {
+  float: right;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #999;
+}
+
+.main-hottravel-title>a:hover {
+  color: #fe8d00;
+}
+
+.main-hottravel-sliderbar {
+  float: left;
+  width: 180px;
+  background-color: #fff;
+  padding: 0 10px 15px 10px;
+  margin-top: 20px;
+}
+
+.guonei .main-hottravel-sliderbar {
+  height: 420px;
+  width: 200px;
+  text-align: center;
+  margin-top: 20px;
+  background-color: #f6f6f6;
+  padding: 20px 0 0 0;
+  position: relative;
+}
+
+.jingwai .main-hottravel-sliderbar {
+  height: 420px;
+  width: 200px;
+  text-align: center;
+  margin-top: 20px;
+  background-color: #e5e5e5;
+  padding: 20px 0 0 0;
+  position: relative;
+
+}
+
+.main-hottravel-sliderbar>a {
+  display: block;
+  position: relative;
+  margin-top: 15px;
+  overflow: hidden;
+}
+
+.guonei .main-hottravel-sliderbar>a {
+  width: 118px;
+  height: 32px;
+  line-height: 32px;
+  background-color: #fff;
+  font-size: 14px;
+  margin: 10px auto 0 auto;
+  border: 1px solid #e5e5e5;
+  border-radius: 17px;
+}
+
+.jingwai .main-hottravel-sliderbar>a {
+  width: 118px;
+  height: 32px;
+  line-height: 32px;
+  background-color: #fff;
+  font-size: 14px;
+  margin: 10px auto 0 auto;
+  border-radius: 17px;
+}
+
+.guonei .main-hottravel-sliderbar>a:hover {
+  color: #fff;
+  background-color: #ff9900;
+}
+
+.jingwai .main-hottravel-sliderbar>a:hover {
+  color: #fff;
+  background-color: #4eb4fb;
+}
+
+.guonei .main-hottravel-sliderbar>i {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 221px;
+  height: 88px;
+  background-image: url(../images/spirit_09.png);
+  background-repeat: no-repeat;
+  background-position: -44px -102px;
+}
+
+.jingwai .main-hottravel-sliderbar>i {
+  position: absolute;
+  bottom: -5px;
+  right: 0;
+  width: 218px;
+  height: 124px;
+  background-image: url(../images/spirit_09.png);
+  background-repeat: no-repeat;
+  background-position: -284px -71px;
+}
+
+.main-hottravel-sliderbar>a>img {
+  width: 180px;
+  height: 123px;
+  display: block;
+  transition: all 0.2s;
+}
+
+.main-hottravel-sliderbar>a:hover img {
+  transform: scale(1.18);
+  /* 让图片变模糊 */
+  filter: blur(5px);
+}
+
+.main-hottravel-sliderbar>a>p {
+  position: absolute;
+  top: 13px;
+  left: 42px;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 96px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.main-hottravel-slidercon {
+  float: right;
+  width: 1000px;
+  height: 450px;
+}
+
+.main-hottravel-slidercon>a {
+  float: left;
+  margin: 20px 0 0 20px;
+  border: 1px solid #dddddd;
+  background: #fff;
+  width: 228px;
+  height: 203px;
+  color: #333;
+  transition: all 0.1s;
+}
+
+.main-hottravel-slidercon>a:hover {
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+}
+
+.main-hottravel-slidercon>a>img {
+  width: 230px;
+  height: 145px;
+  display: block;
+  margin: -1px;
+}
+
+.main-hottravel-slidercon>a>p {
+  margin: 0 9px;
+  line-height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 210px;
+}
+
+.main-hottravel-slidercon>a>div.money {
+  margin: -5px 0 0 9px;
+}
+
+.main-hottravel-slidercon>a>div.money>span {
+  color: #ff6600;
+}
+
+.main-hottravel-slidercon>a>div.money>span>b {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.main-hottravel-slidercon>a>div.money>font.sheng {
+  margin: 9px 0 0 9px;
+  border: 1px solid #ff8d30;
+  color: #ff8d30;
+  font-family: "宋体";
+  font-size: 12px;
+  padding-right: 3px;
+  display: inline-block;
+  line-height: 12px;
+}
+
+.main-hottravel-slidercon>a>div.money>font.sheng>i {
+  display: inline-block;
+  width: 13px;
+  height: 12px;
+  margin-right: 3px;
+  background-image: url(../images/spirit_09.png);
+  background-repeat: no-repeat;
+  background-position: 0 -40px;
+  vertical-align: top;
+}
