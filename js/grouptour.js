@@ -19,5 +19,13 @@ $(function () {
     $('.first .main-travel-boxcon-slidercon>div.txt').eq(index).siblings('.txt').hide();
   })
 
+  $('.second .main-travel-boxcon-title>div.list>a').on('mouseover',function(){
+    let index = $(this).index();
+    // console.log(index);
+    $('.second .main-travel-boxcon-title>div.list>a').eq(index).addClass('on');
+    $('.second .main-travel-boxcon-title>div.list>a').eq(index).siblings('a').removeClass('on');
+    $('.second .main-travel-boxcon-slidercon>div.txt').eq(index).show();
+    $('.second .main-travel-boxcon-slidercon>div.txt').eq(index).siblings('.txt').hide();
+  })
 
 })

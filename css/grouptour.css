@@ -305,6 +305,10 @@
   border-bottom: 3px solid #65b71f;
 }
 
+.second .main-travel-boxcon-title {
+  border-bottom: 3px solid #fa8d00;
+}
+
 .main-travel-boxcon-title>h3 {
   width: 220px;
   float: left;
@@ -320,6 +324,11 @@
   background-image: url(../images/spirit_08.png);
   background-repeat: no-repeat;
   background-position: 0px -323px;
+}
+
+.second .main-travel-boxcon-title>h3>a {
+  width: 110px;
+  background-position: 0 -351px;
 }
 
 .main-travel-boxcon-title>div.list {
@@ -341,6 +350,10 @@
   color: #fff;
   border-radius: 3px;
   background-image: none;
+}
+
+.second .main-travel-boxcon-title>div.list>a.on {
+  background-color: #fa8d00;
 }
 
 .main-travel-boxcon-title>a {
@@ -378,6 +391,13 @@
   background-color: #f4ffe5;
 }
 
+.second .main-travel-boxcon-sliderbar>p {
+  color: #f29f4e;
+  border: 1px solid #eae3cf;
+  border-top: 0 none;
+  background: #fdf6e1;
+}
+
 .main-travel-boxcon-sliderbar>p:first-child {
   padding: 13px 10px 12px 40px;
 }
@@ -396,13 +416,25 @@
   margin-top: -6px;
 }
 
+.second .main-travel-boxcon-sliderbar>p>i.i1 {
+  background-position: 0px -30px;
+}
+
 .main-travel-boxcon-sliderbar>p>i.i2 {
   margin-top: 0;
   background-position: -27px 0px;
 }
 
+.second .main-travel-boxcon-sliderbar>p>i.i2 {
+  background-position: -52px -30px;
+}
+
 .main-travel-boxcon-sliderbar>p>i.i3 {
   background-position: -54px 0px;
+}
+
+.second .main-travel-boxcon-sliderbar>p>i.i3 {
+  background-position: -27px -30px;
 }
 
 .main-travel-boxcon-sliderbar>p>a {
@@ -419,6 +451,10 @@
 
 .main-travel-boxcon-sliderbar a {
   color: #6cb208;
+}
+
+.second .main-travel-boxcon-sliderbar a {
+  color: #fd7e0d
 }
 
 .main-travel-boxcon-sliderbar a:hover {
@@ -438,6 +474,21 @@
   width: 230px;
   float: left;
   padding: 10px 0 10px 20px;
+}
+
+.main-travel-boxcon-onfind {
+  font-size: 14px;
+  color: #999;
+  float: left;
+  padding: 10px 20px;
+}
+
+.main-travel-boxcon-onfind>i {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -5px 0;
+  background: url(../images/spirit_03.png) no-repeat -63px -18px;
 }
 
 .main-travel-boxcon-slidercon-item a:hover {
