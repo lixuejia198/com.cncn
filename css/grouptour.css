@@ -331,6 +331,12 @@
   background-position: 0 -351px;
 }
 
+.third .main-travel-boxcon-title>h3>a {
+  width: 110px;
+  height: 26px;
+  background-position: 0 -378px;
+}
+
 .main-travel-boxcon-title>div.list {
   float: left;
   padding: 20px 0 0 0;
@@ -354,6 +360,10 @@
 
 .second .main-travel-boxcon-title>div.list>a.on {
   background-color: #fa8d00;
+}
+
+.third .main-travel-boxcon-title>div.list>a.on {
+  background-color: #3aaaf8;
 }
 
 .main-travel-boxcon-title>a {
@@ -544,4 +554,27 @@
   padding-right: 3px;
   font-size: 20px;
   font-weight: normal;
+}
+
+/* 3.底部 */
+footer {
+  width: 100%;
+  padding: 10px 0 20px 0;
+  text-align: center;
+  color: #999;
+  font-family: arial;
+  overflow: hidden;
+}
+
+footer a {
+  padding: 0px 5px;
+}
+
+footer a:hover {
+  color: #fa8d00;
+}
+
+.footer-list,
+.footer-ft {
+  margin-bottom: 5px;
 }

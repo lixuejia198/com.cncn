@@ -28,4 +28,14 @@ $(function () {
     $('.second .main-travel-boxcon-slidercon>div.txt').eq(index).siblings('.txt').hide();
   })
 
+  $('.third .main-travel-boxcon-title>div.list>a').on('mouseover',function(){
+    let index = $(this).index();
+    // console.log(index);
+    $('.third .main-travel-boxcon-title>div.list>a').eq(index).addClass('on');
+    $('.third .main-travel-boxcon-title>div.list>a').eq(index).siblings('a').removeClass('on');
+    $('.third .main-travel-boxcon-slidercon>div.txt').eq(index).show();
+    $('.third .main-travel-boxcon-slidercon>div.txt').eq(index).siblings('.txt').hide();
+  })
+
+
 })
