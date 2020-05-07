@@ -464,3 +464,248 @@
   background-position: 0 -40px;
   vertical-align: top;
 }
+
+/* 2.2旅游攻略 */
+.main-ideatravel {
+  padding: 20px 0px;
+  background-color: #fff;
+}
+
+.main-ideatravel-left {
+  width: 734px;
+  float: left;
+}
+
+.main-ideatravel-left-title {
+  border-bottom: 2px solid #ddd;
+  line-height: 24px;
+  padding-bottom: 14px;
+  margin-bottom: 2px;
+}
+
+.main-ideatravel-left-title>span {
+  font-size: 24px;
+  color: #ffae2c;
+}
+
+.main-ideatravel-left-title>a {
+  float: right;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #999;
+}
+
+.main-ideatravel-left-list {
+  margin-left: -20px;
+  height: 323px;
+  overflow: hidden;
+}
+
+.main-ideatravel-left-list-item {
+  width: 230px;
+  margin: 20px 0 0 21px;
+  float: left;
+  height: 303px;
+}
+
+.main-ideatravel-left-list-item>a {
+  width: 230px;
+  height: 145px;
+  position: relative;
+  color: #FFF;
+  overflow: hidden;
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  line-height: 34px;
+}
+
+.main-ideatravel-left-list-item>a>img {
+  display: block;
+  width: 230px;
+  height: 145px;
+  transition: all 0.5s;
+}
+
+.main-ideatravel-left-list-item>a:hover>img {
+  filter: blur(5px);
+}
+
+.main-ideatravel-left-list-item>a>div.hidebox {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 113px;
+  font-size: 14px;
+  transition: all 0.4s;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main-ideatravel-left-list-item>a:hover>div.hidebox {
+  top: 0px;
+}
+
+.main-ideatravel-left-list-item>a>div.hidebox>p.go {
+  border-radius: 17px;
+  width: 120px;
+  line-height: 32px;
+  margin: auto;
+  border: 1px solid #fff;
+  font-size: 16px;
+  margin-top: 5px;
+  transition: all 0.8s;
+  transform: translateY(50px);
+}
+
+.main-ideatravel-left-list-item>a:hover>div.hidebox>p.title {
+  visibility: hidden;
+}
+
+.main-ideatravel-left-list-item>a:hover>div.hidebox>p.go {
+  transform: translateY(0px);
+}
+
+.main-ideatravel-left-list-item>p.con {
+  background: #f6f6f6;
+  color: #666;
+  padding: 8px;
+  height: 36px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  /* 设置p标签四个边框的宽度  让上下宽度为0*/
+  border-width: 0 1px 0 1px;
+}
+
+.main-ideatravel-left-list-item>p.down {
+  padding: 10px 8px;
+  border: 1px solid #ddd;
+  border-top: none;
+  font-size: 14px;
+  line-height: 32px;
+}
+
+.main-ideatravel-left-list-item>p.down>a {
+  float: right;
+  color: #3d98ff;
+  font-size: 12px;
+}
+
+.main-ideatravel-right {
+  width: 445px;
+  float: right;
+}
+
+.main-ideatravel-right-title {
+  font-size: 24px;
+  color: #ffae2c;
+  line-height: 25px;
+  margin-bottom: 20px;
+  padding-bottom: 18px;
+  border-bottom: 2px solid #ddd;
+}
+
+.main-ideatravel-right-content {
+  border-top: 1px solid #e5e5e5;
+  border-left: 1px solid #e5e5e5;
+}
+
+.main-ideatravel-right-content>a {
+  float: left;
+  width: 147px;
+  height: 151px;
+  text-align: center;
+  transition: all 0.15s;
+  font-size: 14px;
+  background-color: #f8f8f8;
+  border-right: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.main-ideatravel-right-content>a:hover {
+  background-color: #fff;
+}
+
+.main-ideatravel-right-content>a>i {
+  display: block;
+  width: 45px;
+  height: 45px;
+  background-image: url(../images/spirit_09.png);
+  background-repeat: no-repeat;
+  margin: 37px auto 5px auto;
+  transform: translateY(0px);
+}
+
+.main-ideatravel-right-content>a:hover>i {
+  animation: move 0.6s linear 1;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(0px);
+  }
+
+  25% {
+    transform: translateY(-15px);
+  }
+
+  50% {
+    transform: translateY(0px);
+  }
+
+  75% {
+    transform: translateY(-7px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.main-ideatravel-right-content>a>i.i1 {
+  background-position: -158px 7px;
+}
+
+.main-ideatravel-right-content>a>i.i2 {
+  background-position: -220px 7px;
+}
+
+.main-ideatravel-right-content>a>i.i3 {
+  background-position: -284px 7px;
+}
+
+.main-ideatravel-right-content>a>i.i4 {
+  background-position: -341px 7px;
+}
+
+.main-ideatravel-right-content>a>i.i5 {
+  background-position: -402px 7px;
+}
+
+.main-ideatravel-right-content>a>i.i6 {
+  background-position: -463px 7px;
+}
+
+
+/* 3.底部 */
+footer {
+  width: 100%;
+  padding: 10px 0 20px 0;
+  text-align: center;
+  color: #999;
+  font-family: arial;
+  overflow: hidden;
+}
+
+footer a {
+  padding: 0px 5px;
+}
+
+footer a:hover {
+  color: #fa8d00;
+}
+
+.footer-list,
+.footer-ft {
+  margin-bottom: 5px;
+}
